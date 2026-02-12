@@ -22,9 +22,9 @@ function Page404() {
                     <source src={VideoBigContent} type="video/mp4" />
                 </video>
                 <div className="container">
-                    <h1 className="nopage__container--title">404</h1>
                     <div className="nopage__container--content">
                         <div className="nopage__container--info">
+                            <h1 className="nopage__container--title">404</h1>
                             <p>К сожалению, такой страницы у нас нет. Давайте вернёмся на главную?</p>
                             <Link to={"/"}>
                                 <Button>
