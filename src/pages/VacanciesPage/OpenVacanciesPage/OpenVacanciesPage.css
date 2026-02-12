@@ -1,0 +1,25 @@
+.open-vacancies__container {
+    position: relative;
+    padding-top: 20px;
+}
+
+.vacacy__btn {
+    border-style: none;
+    background-color: transparent;
+    color: #111111;
+    border: 2px solid #FEDC5A;
+    border-radius: 8px;
+    cursor: pointer;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #000000;
+    text-decoration: none;
+    padding: 16px 32px;
+}
+
+.vacacy__btn:hover,
+.vacacy__btn:active {
+    background-color: #FEDC5A;
+}

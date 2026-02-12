@@ -1,0 +1,221 @@
+.licensePage__container {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 20px;
+  margin-bottom: 96px;
+}
+
+.licensePage__header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.licensePage__subtitle {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.licensePage__document-container {
+  margin: 0 0 40px;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #f9f9f9;
+  width: 100%;
+  max-width: 1000px;
+}
+
+.licensePage__document {
+  width: 100%;
+  height: 600px;
+  border: none;
+  display: block;
+}
+
+.licensePage__form-container {
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.licensePage__form {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  background: white;
+  padding: 0;
+}
+
+.licensePage__form-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0;
+}
+
+.licensePage__form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: start;
+  margin-bottom: 24px;
+  padding-right: 24px;
+}
+
+.licensePage__form-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #8a8a8a;
+  outline: none;
+  background: transparent;
+  font-size: 16px;
+  color: #000000;
+}
+
+.licensePage__form-input:focus {
+  border-bottom-color: #fedc5a;
+}
+
+.licensePage__form-input::placeholder {
+  color: #8a8a8a;
+}
+
+.licensePage__form-agreement {
+  margin: 20px 0;
+  padding: 0 12px;
+}
+
+.licensePage__form-checkbox-label {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  text-align: left;
+}
+
+.licensePage__form-checkbox {
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+  flex-shrink: 0;
+  accent-color: #fedc5a;
+}
+
+.licensePage__form-checkbox-text {
+  color: #333333;
+}
+
+.licensePage__form-btn {
+  background: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+  border: 2px solid #fedc5a;
+  border-radius: 8px;
+  padding: 16px 32px;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+  transition: all 0.3s ease;
+}
+
+.licensePage__form-btn:hover:not(:disabled) {
+  background-color: #fedc5a;
+  color: #000000;
+  cursor: pointer;
+}
+
+.licensePage__form-btn:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.licensePage__form-error {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+  color: #e74c3c;
+  padding: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 960px) {
+  .licensePage__header {
+    font-size: 48px;
+  }
+
+  .licensePage__subtitle {
+    font-size: 14px;
+  }
+
+  .licensePage__document {
+    height: 400px;
+  }
+
+  .licensePage__form-row {
+    grid-template-columns: 1fr;
+    gap: 0;
+  }
+
+  .licensePage__form-field {
+    margin-bottom: 20px;
+  }
+
+  .licensePage__form-btn {
+    padding: 8px 16px;
+  }
+
+  .licensePage__form-checkbox-label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 660px) {
+  .licensePage__container {
+    padding-top: 0;
+  }
+
+  .licensePage__header {
+    font-size: 32px;
+  }
+
+  .licensePage__subtitle {
+    font-size: 16px;
+  }
+
+  .licensePage__document {
+    height: 300px;
+  }
+
+  .licensePage__form-field {
+    margin-bottom: 20px;
+  }
+
+  .licensePage__form-checkbox-label {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}

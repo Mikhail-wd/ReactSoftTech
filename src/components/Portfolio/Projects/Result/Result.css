@@ -1,0 +1,22 @@
+.result__img-container-2-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+
+.result__img-container-2-row .project__img-box:nth-child(2) {
+  display: flex;
+}
+
+
+@media (max-width: 960px) {
+  .result__img-container-2-row {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 660px) {
+  .result__img-container-2-row {
+    grid-template-columns: 1fr; 
+  }
+}

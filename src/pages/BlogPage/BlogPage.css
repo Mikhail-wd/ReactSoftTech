@@ -1,0 +1,49 @@
+.blogPage__header-btn-box {
+  position: relative;
+}
+
+.banneSolutions__btn {
+  position: absolute;
+  bottom: 7%;
+  left: 55px;
+  border-style: none;
+  background: #FEDC5A;
+  border: 2px solid #FEDC5A;
+  border-radius: 8px;
+  padding: 16px 46px;
+  z-index: 1;
+}
+
+.blogPage__header-banner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 46px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+
+  .banneSolutions__btn {
+    left: 0;
+    bottom: -40%;
+    width: auto;
+  }
+}
+
+@media (max-width: 660px) {
+
+  .banneSolutions__btn {
+    position: relative;
+    margin-top: 0;
+    margin-bottom: 48px;
+    left: 0;
+    bottom: -40%;
+    width: 100%;
+  }
+
+  .blogPage__header-banner {
+    font-size: 24px;
+  }
+}

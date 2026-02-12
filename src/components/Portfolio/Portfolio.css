@@ -1,0 +1,28 @@
+.portfolio__filter-btn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-style: none;
+  background: none;
+  margin-left: auto;
+  margin-bottom: 32px;
+  padding: 0;
+}
+
+.portfolio__filter-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18px;
+  color: #000000;
+  margin-right: 4px;
+}
+
+@media (max-width: 960px) {
+
+}
+
+@media (max-width: 660px) {
+
+  
+}

@@ -1,0 +1,133 @@
+.cookie-consent {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  background: rgba(0, 0, 0, 0.95);
+  backdrop-filter: blur(10px);
+
+  z-index: 1000;
+  padding: 20px 0;
+  box-shadow: 0 -4px 20px rgba(0, 0, 0, 0.2);
+  animation: slideUp 0.4s ease-out;
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.cookie-consent__container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.cookie-consent__content {
+  flex: 1;
+  min-width: 300px;
+}
+
+.cookie-consent__text {
+  margin: 0;
+  font-size: 14px;
+  line-height: 1.6;
+  color: #ffffff;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.cookie-consent__link {
+  color: #fedc5a;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.cookie-consent__link:hover {
+  color: #ffd740;
+  text-decoration: none;
+}
+
+.cookie-consent__button {
+  flex-shrink: 0;
+  padding: 12px 40px;
+  background-color: #fedc5a;
+  color: #000000;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+}
+
+.cookie-consent__button:hover {
+  background-color: #ffd740;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(254, 220, 90, 0.3);
+}
+
+.cookie-consent__button:active {
+  transform: translateY(0);
+}
+
+/* Планшет */
+@media (max-width: 960px) {
+  .cookie-consent {
+    padding: 15px 0;
+  }
+
+  .cookie-consent__container {
+    gap: 20px;
+  }
+
+  .cookie-consent__text {
+    font-size: 13px;
+  }
+
+  .cookie-consent__button {
+    padding: 10px 30px;
+    font-size: 15px;
+  }
+}
+
+/* Телефон */
+@media (max-width: 660px) {
+  .cookie-consent {
+    padding: 15px 0;
+  }
+
+  .cookie-consent__container {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 15px;
+  }
+
+  .cookie-consent__content {
+    min-width: auto;
+  }
+
+  .cookie-consent__text {
+    font-size: 12px;
+    line-height: 1.5;
+  }
+
+  .cookie-consent__button {
+    width: 100%;
+    padding: 14px 20px;
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,23 @@
+.integration1cPage__header-banner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 110%;
+  color: #000000;
+}
+
+@media (max-width: 960px) {
+  .integration1cPage__header-banner {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 660px) {
+  .description1c__container {
+    display: none;
+  }
+
+  .integration1cPage__header-banner {
+    font-size: 32px;
+  }
+}

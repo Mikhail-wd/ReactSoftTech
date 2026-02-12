@@ -1,0 +1,26 @@
+.integrationBitrix24Page__header-banner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 128px;
+  line-height: 110%;
+  color: #000000;
+}
+.integrationBitrix24Page__wrapper {
+  display: flex;
+}
+.integrationBitrix24Page__picture {
+  width: 50%;
+}
+
+@media (max-width: 960px) {
+  .integrationBitrix24Page__header-banner {
+    font-size: 64px;
+  }
+}
+
+@media (max-width: 660px) {
+
+  .integrationBitrix24Page__header-banner {
+    font-size: 32px;
+  }
+}

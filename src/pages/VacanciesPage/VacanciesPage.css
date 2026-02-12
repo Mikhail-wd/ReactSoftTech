@@ -1,0 +1,45 @@
+.vacancies__container {
+  position: relative;
+
+  overflow: hidden;
+  padding-top: 96px;
+}
+
+.vacancies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 96px;
+}
+
+.vacancies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 96px;
+}
+
+.formVacancies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 96px;
+}
+
+@media (max-width: 960px) {
+  .vacancies__container{
+
+    overflow: hidden;
+  }
+}
+
+@media (max-width: 660px) {
+  .vacancies__container {
+    background-image: none;
+    padding-top: 25px;
+  }
+
+  .vacancies__container > .bigVideo {
+    display: none;
+  }
+}

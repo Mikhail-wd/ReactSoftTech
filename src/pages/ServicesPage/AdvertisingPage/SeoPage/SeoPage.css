@@ -1,0 +1,23 @@
+.seoPage__header-banner {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 96px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+}
+
+@media (max-width: 960px) {
+  .seoPage__header-banner{
+    font-size: 48px;
+  }
+}
+
+@media (max-width: 660px) {
+  .seoPage__header-banner {
+    font-size: 32px;
+  }
+}
+
+
+

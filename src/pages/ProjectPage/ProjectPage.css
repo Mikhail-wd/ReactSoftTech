@@ -1,0 +1,28 @@
+.projectPage__skeleton {
+    margin-bottom: 80px;
+    --color: rgb(223, 223, 223);
+    --color-secondary: rgb(136, 133, 133);
+    background-repeat: no-repeat;
+    height: 420px;
+    animation: fade 1s linear infinite alternate;
+
+    background-image: linear-gradient(var(--color-secondary) 60px, transparent 0),
+    linear-gradient(var(--color-secondary) 20px, transparent 0),
+    linear-gradient(var(--color-secondary) 20px, transparent 0),
+    linear-gradient(var(--color-secondary) 20px, transparent 0),
+    linear-gradient(var(--color) 420px, transparent 0);
+
+    background-size: 10% 60px,
+    10% 20px,
+    10% 20px,
+    10% 20px,
+    100% 420px;
+
+    background-position: 10% 30px,
+    90% 30px,
+    10% 347px,
+    10% 377px,
+    0 0;
+
+    /*border-radius: 8px;*/
+}

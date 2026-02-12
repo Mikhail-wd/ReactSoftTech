@@ -1,0 +1,40 @@
+.сontacts__container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-top: 96px;
+    min-height: 405px;
+    padding-top: 96px;
+}
+
+.сontacts {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 97px;
+}
+
+.сontactsForm {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 960px) {
+    .сontacts__container {
+
+    }
+}
+
+@media (max-width: 660px) {
+    .сontacts__container {
+        background-image: none;
+        padding-top: 25px;
+    }
+
+    .сontacts__container > .bigVideo {
+        display: none;
+    }
+}

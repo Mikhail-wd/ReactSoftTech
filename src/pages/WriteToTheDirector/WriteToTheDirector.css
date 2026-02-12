@@ -1,0 +1,11 @@
+.writeToTheDirector__container {
+  display: flex;
+  justify-content: center;
+  padding-top: 96px;
+  overflow: hidden;
+}
+
+.writeToTheDirector__form {
+  display: flex;
+  justify-content: center;
+}

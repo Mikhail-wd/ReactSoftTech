@@ -1,0 +1,274 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+  flex-shrink: 0;
+}
+
+.footer__container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+
+.footer__container:first-child {
+  padding-top: 80px;
+  border-top: 1px solid #8a8a8a;
+}
+
+.footer__box {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  max-width: 270px;
+  min-width: 150px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.footer__box:first-child {
+  max-width: 260px;
+}
+
+.footer__box:nth-child(2) {
+  width: 100%;
+}
+
+.footer__box:last-child {
+  max-width: 100%;
+  align-items: flex-end;
+}
+
+.footer__box-2 {
+  display: flex;
+  align-items: center;
+  width: 50%;
+  box-sizing: border-box;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  color: #000000;
+}
+
+.footer__box-2:first-child {
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 110%;
+  color: #cfcdcd;
+}
+
+.footer__box-2:last-child {
+  justify-content: flex-end;
+}
+
+.footer__item {
+  margin-bottom: 15px;
+}
+
+.footer__title {
+  max-width: 260px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 110%;
+  color: #000000;
+  font-size: 14px;
+  white-space: normal;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.footer__link {
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 110%;
+  color: #000000;
+  transition: all 0.3s ease;
+}
+
+.footer__link:hover {
+  color: #fedc5a;
+}
+
+.footer__logo {
+  width: 180px;
+}
+
+.footer__form-btn {
+  background: none;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+  border: 2px solid #fedc5a;
+  border-radius: 8px;
+  white-space: nowrap;
+  padding: 16px 32px;
+  text-decoration: none;
+  color: black;
+  transition: all 0.3s ease;
+}
+
+.footer__text {
+  padding: 0;
+  font-weight: 100;
+}
+
+.footer__form-btn:hover {
+  background: #fedc5a;
+}
+
+.footer__icon {
+  margin-right: 8px;
+}
+
+.footer__container:last-child {
+  margin-bottom: 78px;
+}
+#item2 {
+  margin-left: 100px; /* отрегулируйте по желанию */
+}
+
+@media (max-width: 960px) {
+  .footer__box:nth-child(2) {
+    max-width: 130px;
+    min-width: 110px;
+    width: 100%;
+  }
+  .footer__link {
+    font-size: 14px;
+  }
+
+  .footer__form-btn {
+    padding: 8px 16px;
+  }
+
+  .footer__box-2:first-child {
+    font-size: 14px;
+  }
+
+  .footer__container:last-child {
+    margin-bottom: 114px;
+  }
+}
+
+@media (max-width: 660px) {
+  .footer__container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer__container:last-child {
+    margin-bottom: 93px;
+  }
+
+  .footer__box {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .footer__box:first-child {
+    max-width: 100%;
+  }
+
+  .footer__box {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    align-items: center;
+  }
+
+  .footer__box:last-child {
+    max-width: 100%;
+    align-items: center;
+  }
+
+  .footer__box-2 {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .footer__box-2:last-child {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+    justify-content: center;
+  }
+
+  .footer__item {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+  }
+
+  .footer__box:nth-child(2) .footer__item {
+    border-bottom: 1px solid #cfcdcd;
+  }
+
+  .footer__box:nth-child(2) {
+    max-width: 100%;
+    min-width: 100%;
+    width: 100%;
+  }
+
+  .footer__link {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer__title {
+    text-align: center;
+  }
+
+  .footer__text {
+    max-width: 350px;
+    text-align: center;
+    padding: 0;
+  }
+
+  .footer__box-2:first-child {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 110%;
+    text-align: center;
+    color: #cfcdcd;
+  }
+
+  .footer__form-btn {
+    padding: 16px 32px;
+  }
+  #item1 {
+    order: 1;
+    margin-bottom: 40px;
+  }
+
+  #item2 {
+    margin-left: 0;
+  }
+
+  #item3 {
+    order: 4;
+  }
+
+  #item4 {
+    order: 2;
+    margin-bottom: 40px;
+  }
+}
+.footer__price {
+  font-size: 14px;
+}

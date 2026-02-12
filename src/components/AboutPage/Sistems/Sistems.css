@@ -1,0 +1,129 @@
+.sistems {
+  display: flex;
+  justify-content: center;
+}
+
+.sistems__box {
+  padding-bottom: 96px;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.sistems__slide {
+  min-height: 125px;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02), 0px 1px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 16px;
+  box-sizing: border-box;
+  height: auto;
+}
+
+.sistems__header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.sistems__sub-header {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  text-align: left;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.sistems__slide-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.sistems__slide-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0;
+}
+
+
+
+@media (max-width: 960px) {
+
+  .sistems__container {
+    max-width: 960px;
+    min-width: 600px;
+  }
+
+  .swiper-container {
+    max-width: 960px;
+    min-width: 600px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .sistems__header {
+    font-size: 48px;
+    margin-bottom: 24px;
+  }
+
+  .sistems__sub-header {
+    font-size: 16px;
+    margin-bottom: 48px;
+  }
+
+  .sistems__slide-title {
+    font-size: 20px;
+  }
+
+  .sistems__slide-text {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 660px) {
+  .sistems__container {
+    max-width: 660px;
+    min-width: 250px;
+  }
+
+  .swiper-container {
+    max-width: 660px;
+    min-width: 250px;
+    width: 100%;
+    overflow-x: hidden;
+  }
+
+  .sistems__header {
+    font-size: 32px;
+  }
+
+  .sistems__sub-header {
+    font-size: 16px;
+    margin-bottom: 32px;
+  }
+}
+
+
+@media (min-width: 1200px) {
+
+  .swiper__sistems .swiper-wrapper {
+    column-gap: 30px;
+  }
+
+  .sistems__slide {
+    width: 250px !important;
+  }
+}

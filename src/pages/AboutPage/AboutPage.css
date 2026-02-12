@@ -1,0 +1,140 @@
+.about__container {
+    position: relative;
+    padding-top: 96px;
+    overflow: hidden;
+}
+
+.about__skeleton {
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    row-gap: 20px;
+    margin-bottom: 80px;
+}
+
+
+.about__skeleton-title,
+.about__skeleton-subtitle,
+.about__skeleton-circle {
+    --loading-grey: #ededed;
+    background-color: var(--loading-grey);
+    background: linear-gradient(
+            100deg,
+            rgba(255, 255, 255, 0) 40%,
+            rgba(255, 255, 255, .5) 50%,
+            rgba(255, 255, 255, 0) 60%
+    ) var(--loading-grey);
+    background-size: 200% 100%;
+    background-position-x: 180%;
+    animation: 1s loading ease-in-out infinite;
+}
+
+.about__skeleton-title {
+    min-height: 50px;
+    height: 40px;
+    border-radius: 4px;
+    animation-delay: .05s;
+    margin-bottom: 15px;
+    width: 70%;
+}
+
+.about__skeleton-subtitle {
+    min-height: 50px;
+    height: 40px;
+    border-radius: 4px;
+    animation-delay: .05s;
+    margin-bottom: 15px;
+    width: 50%;
+}
+
+.about__skeleton-circle-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 25px;
+}
+
+.about__skeleton-circle {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    margin-right: -25px
+}
+
+@keyframes loading {
+    to {
+        background-position-x: -20%;
+    }
+}
+
+
+@media (max-width: 660px) {
+    .about__skeleton-circle {
+        height: 100px;
+        width: 100px;
+    }
+    .about__skeleton-title,
+    .about__skeleton-subtitle {
+        height: 35px;
+        min-height: 0px;
+    }
+}
+
+
+.employees {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 97px;
+}
+
+.sistems {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 97px;
+}
+
+.geography {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 97px;
+}
+
+.whatCanWeDo {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 97px;
+}
+
+.formAboutPage {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+@media (max-width: 960px) {
+    .about__container {
+        position: relative;
+        overflow: hidden;
+    }
+
+
+}
+
+@media (max-width: 660px) {
+    .about__container {
+        overflow: hidden;
+        padding-top: 25px;
+    }
+
+    .about__container > .bigVideo {
+        display: none;
+    }
+
+}
+

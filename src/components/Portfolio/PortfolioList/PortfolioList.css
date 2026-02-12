@@ -1,0 +1,248 @@
+.portfolio__nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px;
+}
+
+.portfolio__nav-box {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio__nav-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 110%;
+    color: #000000;
+    margin: 0;
+    margin-bottom: 16px;
+}
+
+.portfolio__nav-link {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    text-decoration: none;
+}
+
+.portfolio__nav-text {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 110%;
+    color: #000000;
+    margin: 0;
+}
+
+.portfolio__nav-icon-text {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: #6A6A6A;
+    margin-right: 12px;
+}
+
+.portfolio__nav-icon {
+    display: block;
+}
+
+.portfolio__skeleton {
+    --color: rgb(223, 223, 223);
+    --color-secondary: rgb(136, 133, 133);
+    background-repeat: no-repeat;
+    height: 420px;
+    animation: fade 1s linear infinite alternate;
+
+    background-image: linear-gradient(var(--color-secondary) 60px, transparent 0),
+    linear-gradient(var(--color-secondary) 20px, transparent 0),
+    linear-gradient(var(--color) 420px, transparent 0);
+
+    background-size: 30% 60px,
+    30% 20px,
+    100% 420px;
+
+    background-position: 50% 170px,
+    10% 377px,
+    0 0;
+
+    /*border-radius: 8px;*/
+}
+
+.portfolio__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-rows: auto;
+    align-items: start;
+    gap: 30px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    padding-bottom: 96px;
+    border-bottom: 1px solid #8a8a8a;
+    margin-bottom: 96px;
+}
+
+.portfolio__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-width: calc(50% - 15px);
+    min-height: 420px;
+    width: 100%;
+    background-color: red;
+    padding: 0;
+    margin: 0;
+    filter: grayscale(100%);
+    transition: filter 0.3s ease;
+    box-sizing: border-box;
+}
+
+.portfolio__item:nth-child(2n) {
+    margin-right: 0;
+}
+
+.portfolio__item-link {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    min-height: 420px;
+}
+
+.portfolio__item:hover,
+.portfolio__item-link:active {
+    filter: grayscale(0%);
+}
+
+
+.portfolio__item-img {
+    object-fit: cover;
+}
+
+.portfolio__item-logo-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.portfolio__item-logo {
+    width: 40%;
+    height: auto;
+}
+
+.portfolio__item-list-service {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FEDC5A;
+    width: 100%;
+}
+
+.portfolio__item-service {
+
+}
+
+
+@media (max-width: 960px) {
+    .portfolio__nav {
+        flex-direction: column;
+        align-items: flex-start;
+        margin-bottom: 32px;
+    }
+
+    .portfolio__nav-box {
+        width: 80%;
+    }
+
+    .portfolio__nav-title {
+        font-size: 20px;
+    }
+
+    .portfolio__nav-text {
+        font-size: 14px;
+        margin-bottom: 12px;
+    }
+
+    .portfolio__item {
+        min-height: 242px;
+    }
+
+    .portfolio__item-link {
+        min-height: 242px;
+    }
+}
+
+@media (max-width: 660px) {
+    .portfolio__nav-title {
+        font-size: 24px;
+        margin-bottom: 12px;
+    }
+
+    .portfolio__nav-text {
+        font-size: 16px;
+        margin-bottom: 0;
+    }
+
+    .portfolio__nav {
+        margin-bottom: 0;
+    }
+
+    .portfolio__nav-link {
+        margin-bottom: 24px;
+    }
+
+    .portfolio__nav-box {
+        width: 100%;
+    }
+
+    .portfolio__list {
+        grid-template-columns: 1fr;
+        gap: 30px;
+    }
+
+    .portfolio__item {
+        min-width: 200px;
+        width: 100%;
+        min-height: 330px;
+        max-height: 330px;
+        background-color: red;
+        padding: 0;
+        margin: 0;
+        filter: grayscale(100%);
+        transition: filter 0.3s ease;
+        box-sizing: border-box;
+    }
+
+    .portfolio__item-link {
+        min-height: 420px;
+    }
+
+    .portfolio__item:nth-child(2n) {
+        margin-right: 0;
+    }
+}
+
+@keyframes fade {
+    from {
+        opacity: 0.4;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    to {
+        opacity: 1;
+    }
+}

@@ -1,0 +1,146 @@
+.workingAtSofttechgroup__box {
+  padding-bottom: 48px;
+  border-bottom: 1px solid #8a8a8a;
+}
+
+.workingAtSofttechgroup__container {
+  width: 80%;
+}
+
+.workingAtSofttechgroup__header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.workingAtSofttechgroup__title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.workingAtSofttechgroup__text {
+  width: 70%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 48px;
+}
+
+.vacancy__box {
+  padding-bottom: 96px;
+  border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 96px;
+}
+
+.vacancy__box:nth-child(2) {
+  padding-bottom: 96px;
+  border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 0;
+}
+
+.vacancy__name {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.vacancy__text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 12px;
+}
+
+.vacancy__skills {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  margin-bottom: 32px;
+}
+
+.vacancy__skill {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+}
+
+@media (max-width: 960px) {
+  .workingAtSofttechgroup__container {
+    width: 100%;
+  }
+
+  .workingAtSofttechgroup__box {
+    width: 100%;
+  }
+
+  .workingAtSofttechgroup__header {
+    font-size: 48px;
+  }
+
+  .workingAtSofttechgroup__title {
+    font-size: 20px;
+  }
+
+  .workingAtSofttechgroup__text {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+@media (max-width: 660px) {
+  .workingAtSofttechgroup__container {
+    width: 100%;
+  }
+
+  .workingAtSofttechgroup__box {
+    width: 100%;
+  }
+
+  .workingAtSofttechgroup__header {
+    font-size: 32px;
+  }
+
+  .workingAtSofttechgroup__title {
+    font-size: 20px;
+  }
+
+  .workingAtSofttechgroup__text {
+    font-size: 14px;
+    width: 100%;
+  }
+}
+
+.workingAtSofttechgroup__link {
+  text-decoration: none;
+  padding: 16px 32px;
+  font-weight: 500;
+  background-color: transparent;
+  color: #111111;
+  border: 2px solid #fedc5a;
+  border-radius: 8px;
+}
+
+.workingAtSofttechgroup__link:hover {
+  background-color: #fedc5a;
+}

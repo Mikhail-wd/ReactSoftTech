@@ -1,0 +1,267 @@
+.form__container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 96px 0;
+  /*  border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 96px; */
+}
+
+.form__box {
+  width: 100%;
+}
+
+.form__form-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0 0 30px 0;
+}
+
+.form__form-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 125%;
+  color: #000000;
+}
+
+.form__form-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 24px;
+}
+
+.form__form-label--checkbox {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 16px;
+}
+
+.form__form-input {
+  width: 100%;
+  height: 40px;
+  border: none;
+  border-bottom: 1px solid #8a8a8a;
+  outline: none;
+}
+
+.form__form-checkbox {
+  width: 18px;
+  height: 18px;
+  min-width: 18px;
+  min-height: 18px;
+  margin-right: 12px;
+  cursor: pointer;
+  flex-shrink: 0;
+  accent-color: #fedc5a;
+}
+
+.form__form-checkbox-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  text-align: left;
+}
+
+.form__form-link {
+  color: #fedc5a;
+  text-decoration: none;
+  font-weight: 500;
+  transition: opacity 0.3s ease;
+}
+
+.form__form-link:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
+.form__form-btn {
+  background: none;
+
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+
+  border: 2px solid #fedc5a;
+  border-radius: 8px;
+
+  padding: 16px 32px;
+  color: #000000;
+  cursor: pointer;
+  width: 100%;
+  max-width: 300px;
+  display: block;
+  margin: 0 auto;
+}
+
+.form__form-btn:hover {
+  background-color: #fedc5a;
+  color: #000000;
+  cursor: pointer;
+}
+
+.form__form-error {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 110%;
+  color: #fedc5a;
+  padding: 10px;
+}
+
+@media (max-width: 960px) {
+  .form__box {
+    width: 80%;
+  }
+
+  .form__form-title {
+    font-size: 24px;
+  }
+
+  .form__form-text {
+    display: none;
+  }
+
+  .form__form-btn {
+    padding: 8px 16px;
+  }
+
+  .form__form-checkbox-label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 660px) {
+  .form__container {
+    flex-direction: column;
+    justify-self: center;
+    align-items: flex-start;
+    padding: 0 0 96px 0;
+  }
+
+  .form__box {
+    width: 100%;
+  }
+
+  .form__form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .form__form-title {
+    font-size: 32px;
+  }
+
+  .form__form-text {
+    width: 100%;
+    display: flex;
+    font-size: 16px;
+  }
+
+  .form__form-label {
+    margin-bottom: 20px;
+  }
+
+  .form__form-label--checkbox {
+    margin-bottom: 14px;
+  }
+
+  .form__form-checkbox-label {
+    font-size: 12px;
+    line-height: 150%;
+  }
+}
+
+/* Стили для селектора услуг */
+.form__form-services-title {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0 0 16px 0;
+}
+
+.form__form-services-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.form__form-service-item {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 6px;
+  transition: background-color 0.2s ease;
+}
+
+.form__form-service-item:hover {
+  background-color: #f8f9fa;
+}
+
+.form__form-service-checkbox {
+  width: 16px;
+  height: 16px;
+  min-width: 16px;
+  min-height: 16px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: #fedc5a;
+}
+
+.form__form-service-label {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 140%;
+  color: #333333;
+  cursor: pointer;
+}
+
+@media (max-width: 960px) {
+  .form__form-services-grid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+
+  .form__form-services-title {
+    font-size: 14px;
+  }
+
+  .form__form-service-label {
+    font-size: 13px;
+  }
+}
+
+@media (max-width: 660px) {
+  .form__form-services-grid {
+    grid-template-columns: 1fr;
+    gap: 6px;
+  }
+
+  .form__form-services-title {
+    font-size: 14px;
+  }
+
+  .form__form-service-item {
+    padding: 6px 8px;
+  }
+
+  .form__form-service-label {
+    font-size: 12px;
+  }
+}

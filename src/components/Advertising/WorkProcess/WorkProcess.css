@@ -1,0 +1,99 @@
+.workProcess__header {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 64px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 32px;
+}
+
+.workProcess__list {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+  padding-bottom: 96px;
+  border-bottom: 1px solid #8a8a8a;
+  margin-bottom: 96px;
+}
+
+.workProcess__item {
+  position: relative;
+  background: #FFFFFF;
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02), 0px 1px 12px rgba(0, 0, 0, 0.06);
+  border-radius: 16px;
+  padding: 32px;
+  box-sizing: border-box;
+  overflow: hidden;
+}
+
+.workProcess__title-box {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.workProcess__number {
+  display: none;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 110%;
+  color: #FEDC5A;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.workProcess__title {
+  width: 80%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 110%;
+  color: #000000;
+  margin: 0;
+  margin-bottom: 16px;
+}
+
+.workProcess__text {
+  width: 80%;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 125%;
+  color: #000000;
+  margin: 0;
+}
+
+.workProcess__icon {
+  position: absolute;
+  bottom: -7px;
+  right: 7px;
+  display: block;
+}
+
+@media (max-width: 960px) {
+  .workProcess__header {
+    font-size: 48px;
+  }
+
+  .workProcess__list {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 660px) {
+  .workProcess__header {
+    font-size: 24px;
+  }
+  .workProcess__number {
+    display: flex;
+  }
+  .workProcess__title {
+    padding-left: 8px;
+  }
+
+  .workProcess__icon {
+    display: none;
+  }
+}

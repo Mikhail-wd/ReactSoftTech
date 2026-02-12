@@ -1,0 +1,1401 @@
+{
+  "menu": [
+    {
+      "title": "Разработка",
+      "link": "/services/development",
+      "submenu": [
+        {
+          "title": "Разработка сайтов",
+          "link": "/services/development/website"
+        },
+        {
+          "title": "Разработка приложений",
+          "link": "/services/development/app"
+        },
+        {
+          "title": "Разработка ПО",
+          "link": "/services/development/software"
+        },
+        {
+          "title": "Разработка личных кабинетов и СУП",
+          "link": "/services/development/personal-accounts"
+        }
+      ]
+    },
+    {
+      "title": "Внедрение и интеграция",
+      "link": "/services/integration",
+      "submenu": [
+        {
+          "title": "Bitrix24",
+          "link": "/services/integration/bitrix24"
+        },
+        {
+          "title": "Внедрение 1С",
+          "link": "/services/integration/1c"
+        }
+      ]
+    },
+    {
+      "title": "Дизайн",
+      "link": "/services/design",
+      "submenu": [
+        {
+          "title": "UX/UI дизайн",
+          "link": "/services/design/web"
+        },
+        {
+          "title": "Продуктовый дизайн",
+          "link": "/services/design/product"
+        }
+      ]
+    },
+    {
+      "title": "Реклама",
+      "link": "/services/advertising",
+      "submenu": [
+        {
+          "title": "SEO продвижение",
+          "link": "/services/advertising/seo"
+        },
+        {
+          "title": "SMM продвижение",
+          "link": "/services/advertising/smm"
+        }
+      ]
+    },
+    {
+      "title": "Готовые решения",
+      "link": "/services/solutions",
+      "submenu": [
+        {
+          "title": "Сервер в аренду",
+          "link": "/services/solutions/server-storage-support"
+        },
+        {
+          "title": "Хостинг в аренду",
+          "link": "/services/solutions/hosting"
+        },
+        {
+          "title": "Готовые сайты и интернет-магазины",
+          "link": "/services/solutions/websites-online-stores"
+        }
+      ]
+    },
+    {
+      "title": "Офисное и торговое оборудование",
+      "link": "/services/equipment",
+      "submenu": [
+        {
+          "title": "Офисная техника и комплектующие",
+          "link": "/services/equipment/office"
+        },
+        {
+          "title": "Контрольно-кассовая техника",
+          "link": "/services/equipment/cash"
+        },
+        {
+          "title": "Серверное и вычислительное оборудование",
+          "link": "/services/equipment/server"
+        }
+      ]
+    }
+  ],
+  "advantagesHome": [
+    {
+      "title": "Прибыль",
+      "description": "Увеличили доход наших клиентов на 800.000.000₽"
+    },
+    {
+      "title": "Опыт",
+      "description": "Более 70 проектов реализовано за все время работы"
+    },
+    {
+      "title": "Команда",
+      "description": "Свыше 30 специалистов занимаются разработкой, внедрением и поддержкой"
+    },
+    {
+      "title": "Поддержка",
+      "description": "Будем с вами на связи 24/7"
+    }
+  ],
+  "advantagesSistems": [
+    {
+      "title": "Аналитика",
+      "description": "Проводим интервью, определяем конечные и промежуточные цели, учитываем проблемные моменты в работе, составляем ТЗ"
+    },
+    {
+      "title": "Реализация",
+      "description": "Разработка функционала, интеграции, автоматизация бизнес-процессов и отдельных блоков"
+    },
+    {
+      "title": "Обучение",
+      "description": "Проводим обучение пользователей, предоставляя инструкции и организуя встречи в ZOOM"
+    },
+    {
+      "title": "Споровождение",
+      "description": "Техподдержка, ответы на вопросы, осуществляем доработки и модернизацию системы"
+    }
+  ],
+  "advantagesWebDesing": [
+    {
+      "title": "Прототипирование",
+      "description": "На этапе прототипа формулируем структуру и логику продукта"
+    },
+    {
+      "title": "Индвидуальный подход",
+      "description": "Искренне верим что грамотно упакованный продукт: высокие продажи"
+    },
+    {
+      "title": "User experience",
+      "description": "Создаём дизайн с учётом удобства пользователя - стремимся упрощать"
+    },
+    {
+      "title": "Поддержка",
+      "description": "Решаем все вопросы в течение 24 часов"
+    }
+  ],
+  "advantagesProductDesing": [
+    {
+      "title": "Прототипирование",
+      "description": "На этапе прототипа формулируем структуру и логику продукта"
+    },
+    {
+      "title": "Макеты под ключ",
+      "description": "Создаём дизайн с учётом требований полиграфии - всё готово к печати"
+    },
+    {
+      "title": "Опт",
+      "description": "Предоставляем хорошую скидку за большой объём - развиваться можно выгодно"
+    }
+  ],
+  "advantagesSeo": [
+    {
+      "title": "Ежемесячные отчёты",
+      "description": "Вам всегда будет ясна эффективность наших действий"
+    },
+    {
+      "title": "Цена работы",
+      "description": "Знаем сколько стоит качество и скорость"
+    },
+    {
+      "title": "Нет пустых обещаний",
+      "description": "Отвечаем только за свою работу и делаем её отлично"
+    }
+  ],
+  "advantagesSmm": [
+    {
+      "title": "Ежемесячные отчёты",
+      "description": "Вам всегда будет ясна эффективность наших действий"
+    },
+    {
+      "title": "Цена работы",
+      "description": "Знаем сколько стоит качество и скорость"
+    },
+    {
+      "title": "Нет пустых обещаний",
+      "description": "Отвечаем только за свою работу и делаем её отлично"
+    }
+  ],
+  "advantagesPersonalAccounts": [
+    {
+      "title": "Прототипирование",
+      "description": "На этапе прототипа формулируем структуру и логику продукта"
+    },
+    {
+      "title": "Макеты под ключ",
+      "description": "Создаём дизайн с учётом требований полиграфии - всё готово к печати"
+    },
+    {
+      "title": "Опт",
+      "description": "Предоставляем хорошую скидку за большой объём - развиваться можно выгодно"
+    }
+  ],
+  "advantagesSoftware": [
+    {
+      "title": "Прототипирование",
+      "description": "На этапе прототипа формулируем структуру и логику продукта"
+    },
+    {
+      "title": "Макеты под ключ",
+      "description": "Создаём дизайн с учётом требований полиграфии - всё готово к печати"
+    },
+    {
+      "title": "Опт",
+      "description": "Предоставляем хорошую скидку за большой объём - развиваться можно выгодно"
+    }
+  ],
+  "advantagesWebsite": [
+    {
+      "title": "Прототипирование",
+      "description": "На этапе прототипа формулируем структуру и логику продукта"
+    },
+    {
+      "title": "Макеты под ключ",
+      "description": "Создаём дизайн с учётом требований полиграфии - всё готово к печати"
+    },
+    {
+      "title": "Опт",
+      "description": "Предоставляем хорошую скидку за большой объём - развиваться можно выгодно"
+    }
+  ],
+  "advantagesDevelopWebsite": [
+    {
+      "title": "Большой опыт",
+      "description": "Знаем, что подходит под конкретные задачи"
+    },
+    {
+      "title": "Гибкость в работе",
+      "description": "Произведём доработки под ваши нужды"
+    },
+    {
+      "title": "Официальная покупка",
+      "description": "Предоставим лицензионное ПО и всю документацию"
+    }
+  ],
+  "advantagesOffice": [
+    {
+      "title": "Большой опыт",
+      "description": "Знаем, что подходит под конкретные задачи"
+    },
+    {
+      "title": "Гибкость в работе",
+      "description": "Произведём доработки под ваши нужды"
+    },
+    {
+      "title": "Официальная покупка",
+      "description": "Предоставим лицензионное ПО и всю документацию"
+    }
+  ],
+  "advantagesCash": [
+    {
+      "title": "Доставка за 0₽",
+      "description": "Берем расходы по транспортировке на себя"
+    },
+    {
+      "title": "Большой опыт",
+      "description": "Знаем, что подходит под конкретные задачи"
+    },
+    {
+      "title": "Гарантия от 1 года",
+      "description": "сохраняем гарантию производителя для Вашего комфорта"
+    },
+    {
+      "title": "Поддержка",
+      "description": "Решаем все вопросы в течение 24 часов"
+    }
+  ],
+  "advantagesServer": [
+    {
+      "title": "Доставка за 0₽",
+      "description": "Берем расходы по транспортировке на себя"
+    },
+    {
+      "title": "Большой опыт",
+      "description": "Знаем, что подходит под конкретные задачи"
+    },
+    {
+      "title": "Гарантия от 1 года",
+      "description": "сохраняем гарантию производителя для Вашего комфорта"
+    },
+    {
+      "title": "Поддержка",
+      "description": "Решаем все вопросы в течение 24 часов"
+    }
+  ],
+  "portfolioList": [
+    {
+      "id": 1,
+      "name": "support pertners",
+      "img": "/images/portfolio/1.jpg",
+      "link": "./support-partners",
+      "logo": "/images/portfolio/logo/1.svg",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "автор24",
+      "img": "/images/portfolio/2.jpg",
+      "link": "./avtor24",
+      "logo": "/images/portfolio/logo/2.png",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "ци",
+      "img": "/images/portfolio/3.jpg",
+      "link": "./ci",
+      "logo": "/images/portfolio/logo/3.svg",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "резиденция",
+      "img": "/images/portfolio/4.jpg",
+      "link": "./portfolio/residence",
+      "logo": "/images/portfolio/logo/4.png",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "логистический сервис",
+      "img": "/images/portfolio/5.jpg",
+      "link": "./logistics-service",
+      "logo": "/images/portfolio/logo/5.png",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "argel",
+      "img": "/images/portfolio/6.jpg",
+      "link": "./argel",
+      "logo": "/images/portfolio/logo/6.svg",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 1,
+      "name": "support pertners",
+      "img": "/images/portfolio/1.jpg",
+      "link": "./support-partners",
+      "logo": "/images/portfolio/logo/1.svg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "автор24",
+      "img": "/images/portfolio/2.jpg",
+      "link": "./avtor24",
+      "logo": "/images/portfolio/logo/2.png",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "ци",
+      "img": "/images/portfolio/3.jpg",
+      "link": "./ci",
+      "logo": "/images/portfolio/logo/3.svg",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 4,
+      "name": "резиденция",
+      "img": "/images/portfolio/4.jpg",
+      "link": "./portfolio/residence",
+      "logo": "/images/portfolio/logo/4.png",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 5,
+      "name": "логистический сервис",
+      "img": "/images/portfolio/5.jpg",
+      "link": "./logistics-service",
+      "logo": "/images/portfolio/logo/5.png",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    },
+    {
+      "id": 6,
+      "name": "argel",
+      "img": "/images/portfolio/6.jpg",
+      "link": "./argel",
+      "logo": "/images/portfolio/logo/6.svg",
+      "service": "Разработка",
+      "banner": "/images/portfolio/bannerProject.jpg",
+      "task": {
+        "text": "Создать портал бизнес тренеров для b2b сегмента, реализовать личный кабинет для клиентов и доступность контентного наполнения ... ",
+        "images": [
+          "/images/portfolio/image/1.jpg",
+          "/images/portfolio/image/2.jpg",
+          "/images/portfolio/image/3.jpg",
+          "/images/portfolio/image/4.jpg",
+          "/images/portfolio/image/5.jpg",
+          "/images/portfolio/image/6.jpg"
+        ]
+      },
+      "solution": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/7.jpg",
+          "/images/portfolio/image/8.jpg",
+          "/images/portfolio/image/9.jpg"
+        ]
+      },
+      "result": {
+        "text": "Мы проработали функционал и визуальную составляющую с фокус-группой и выбрали оптимальные варианты реализации задачи",
+        "images": [
+          "/images/portfolio/image/10.jpg",
+          "/images/portfolio/image/11.jpg"
+        ]
+      },
+      "technologies": {
+        "text": "Наше программное обеспечение используемое в разработке продукта и вспомогательные процессы для оперативной работы",
+        "images": [
+          "/images/portfolio/technologies/1.svg",
+          "/images/portfolio/technologies/2.svg",
+          "/images/portfolio/technologies/3.png"
+        ]
+      }
+    }
+  ],
+  "blogList": [
+    {
+      "id": 1,
+      "author": "Ирина",
+      "photo": "/images/blog/1.jpg",
+      "position": "Должность",
+      "img": "/images/blog/2.jpg",
+      "title": "Каким должен быть сайт под b2b1",
+      "subTitle": "На этапе прототипа формулируем структуру и логику продукта1",
+      "tags": ["b2b1", "E-commerce"],
+      "likes": 4569,
+      "dislikes": 0,
+      "text": "Хороший веб-сайт b2b-компании — это сайт с грамотной структурой, интуитивно понятным интерфейсом и современным дизайном. На нем нет ничего лишнего, в то же время есть вся информация, необходимая для принятия решения о покупке. Он быстро грузится и отображается на всех устройствах. Пользователю понятно, как найти нужный раздел и оформить заказ. Такой сайт решает задачи бизнеса: приносит новых клиентов и увеличивает доходы и прибыль компании.",
+      "quote": "Нормально делай - нормально будет"
+    },
+    {
+      "id": 2,
+      "author": "Ольга",
+      "photo": "/images/blog/1.jpg",
+      "position": "Должность",
+      "img": "/images/blog/2.jpg",
+      "title": "Каким должен быть сайт под b2b2",
+      "subTitle": "На этапе прототипа формулируем структуру и логику продукта2",
+      "tags": ["b2b2", "E-commerce"],
+      "likes": 54896,
+      "dislikes": 0,
+      "text": "Хороший веб-сайт b2b-компании — это сайт с грамотной структурой, интуитивно понятным интерфейсом и современным дизайном. На нем нет ничего лишнего, в то же время есть вся информация, необходимая для принятия решения о покупке. Он быстро грузится и отображается на всех устройствах. Пользователю понятно, как найти нужный раздел и оформить заказ. Такой сайт решает задачи бизнеса: приносит новых клиентов и увеличивает доходы и прибыль компании.",
+      "quote": "Нормально делай - нормально будет"
+    },
+    {
+      "id": 3,
+      "author": "Карина",
+      "photo": "/images/blog/1.jpg",
+      "position": "Должность",
+      "img": "/images/blog/2.jpg",
+      "title": "Каким должен быть сайт под b2b3",
+      "subTitle": "На этапе прототипа формулируем структуру и логику продукта3",
+      "tags": ["b2b3", "E-commerce"],
+      "likes": 256,
+      "disikes": 0,
+      "text": "Хороший веб-сайт b2b-компании — это сайт с грамотной структурой, интуитивно понятным интерфейсом и современным дизайном. На нем нет ничего лишнего, в то же время есть вся информация, необходимая для принятия решения о покупке. Он быстро грузится и отображается на всех устройствах. Пользователю понятно, как найти нужный раздел и оформить заказ. Такой сайт решает задачи бизнеса: приносит новых клиентов и увеличивает доходы и прибыль компании.",
+      "quote": "Нормально делай - нормально будет"
+    },
+    {
+      "id": 4,
+      "author": "Марина",
+      "photo": "/images/blog/1.jpg",
+      "position": "Должность",
+      "img": "/images/blog/2.jpg",
+      "title": "Каким должен быть сайт под b2b4",
+      "subTitle": "На этапе прототипа формулируем структуру и логику продукта4",
+      "tags": ["b2b4", "E-commerce"],
+      "likes": 65695,
+      "dislikes": 0,
+      "text": "Хороший веб-сайт b2b-компании — это сайт с грамотной структурой, интуитивно понятным интерфейсом и современным дизайном. На нем нет ничего лишнего, в то же время есть вся информация, необходимая для принятия решения о покупке. Он быстро грузится и отображается на всех устройствах. Пользователю понятно, как найти нужный раздел и оформить заказ. Такой сайт решает задачи бизнеса: приносит новых клиентов и увеличивает доходы и прибыль компании.",
+      "quote": "Нормально делай - нормально будет"
+    }
+  ],
+  "workProcessSeo": [
+    {
+      "title": "Проводим анализ",
+      "text": "Оцениваем сайт, смотрим на конкурентов, выявляем целевой продукт, географию, аудиторию и УТП",
+      "icon": "src/assets/icons/1.svg"
+    },
+    {
+      "title": "Планируем работы",
+      "text": "Определяем как именно будем продвигать Вашу компанию и продукт, формулируем поисковые фразы",
+      "icon": "src/assets/icons/1.svg"
+    },
+    {
+      "title": "Производим настройки",
+      "text": "Выставляем цели, критерии, формируем предложение, дорабатываем контент сайта",
+      "icon": "src/assets/icons/1.svg"
+    },
+    {
+      "title": "Отлаживаем процесс",
+      "text": "Тестируем гипотезы, улучшаем выдачу",
+      "icon": "src/assets/icons/1.svg"
+    }
+  ],
+  "workProcessSmm": [
+    {
+      "title": "Проводим анализ",
+      "text": "Оцениваем сайт, смотрим на конкурентов, выявляем целевой продукт, географию, аудиторию и УТП",
+      "icon": "src/assets/icons/1.svg"
+    },
+    {
+      "title": "Планируем работы",
+      "text": "Определяем как именно будем продвигать Вашу компанию и продукт, формулируем поисковые фразы",
+      "icon": "src/assets/icons/2.svg"
+    },
+    {
+      "title": "Производим настройки",
+      "text": "Выставляем цели, критерии, формируем предложение, дорабатываем контент сайта",
+      "icon": "src/assets/icons/3.svg"
+    },
+    {
+      "title": "Отлаживаем процесс",
+      "text": "Тестируем гипотезы, улучшаем выдачу",
+      "icon": "src/assets/icons/4.svg"
+    }
+  ],
+  "employees": [
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    },
+    {
+      "name": "liana",
+      "photo": "/images/employees/liana.jpg"
+    }
+  ],
+  "serverEquipment": [
+    {
+      "name": "Онлайн-касса Атол 2",
+      "img": "/images/server/1.png"
+    },
+    {
+      "name": "Онлайн-касса Атол 2",
+      "img": "/images/server/2.png"
+    },
+    {
+      "name": "Онлайн-касса Атол",
+      "img": "/images/server/3.png"
+    },
+    {
+      "name": "Смарт-терминал Атол",
+      "img": "/images/server/4.png"
+    }
+  ],
+  "serverEquipmentPartners": [
+    {
+      "logo": "/images/server/partners/1.png"
+    },
+    {
+      "logo": "/images/server/partners/2.png"
+    },
+    {
+      "logo": "/images/server/partners/3.png"
+    },
+    {
+      "logo": "/images/server/partners/4.png"
+    },
+    {
+      "logo": "/images/server/partners/5.png"
+    },
+    {
+      "logo": "/images/server/partners/6.png"
+    }
+  ],
+  "officeEquipment": [
+    {
+      "name": "Монитор Бештау",
+      "img": "/images/equipment/1.jpg"
+    },
+    {
+      "name": "Принтер HP",
+      "img": "/images/equipment/2.jpg"
+    },
+    {
+      "name": "ПК iMac 24",
+      "img": "/images/equipment/3.jpg"
+    }
+  ],
+  "officeEquipmentPartners": [
+    {
+      "logo": "/images/server/partners/1.png"
+    },
+    {
+      "logo": "/images/server/partners/2.png"
+    },
+    {
+      "logo": "/images/server/partners/3.png"
+    },
+    {
+      "logo": "/images/server/partners/4.png"
+    }
+  ],
+  "cashEquipment": [
+    {
+      "name": "Онлайн-касса Атол 2",
+      "img": "/images/server/1.png"
+    },
+    {
+      "name": "Онлайн-касса Атол 2",
+      "img": "/images/server/2.png"
+    },
+    {
+      "name": "Онлайн-касса Атол",
+      "img": "/images/server/3.png"
+    },
+    {
+      "name": "Смарт-терминал Атол",
+      "img": "/images/server/4.png"
+    }
+  ],
+  "cashEquipmentPartners": [
+    {
+      "logo": "/images/server/partners/1.png"
+    },
+    {
+      "logo": "/images/server/partners/2.png"
+    },
+    {
+      "logo": "/images/server/partners/3.png"
+    },
+    {
+      "logo": "/images/server/partners/4.png"
+    }
+  ],
+  "versions1c": [
+    {
+      "name": "1С: Предприятие 8",
+      "text": "Оптимизирует управление и учет в компаниях, которые относятся к разным отраслям. Конфигурации на базе системы подходят для всех типов финансирования, а также для микробизнеса, средних компаний и огромных холдингов с обособленными подразделениями и сложной внутренней структурой. Масштабируемость, гибкость технологической платформы 1С: Предприятие 8 делают ее универсальной базой для разработки программ под разные цели и задачи",
+      "tags": [
+        "Управление финансами",
+        "Управление кадрами",
+        "Маркетинговые мероприятия",
+        "Клиентские базы"
+      ]
+    },
+    {
+      "name": "1С: Бухгалтерия 8",
+      "text": "Полностью автоматизирует ведение бухгалтерского и налогового учета на предприятии. Позволяет работать с различными системами налогообложения (общей, упрощенной, патентной, в виде единого налога на вмененный доход для отдельных видов деятельности). Решает полный комплекс задач бухгалтерской службы",
+      "tags": [
+        "Работа с контрагентами",
+        "Торговый и складской учёт",
+        "Производственный учёт",
+        "Финансы и кадры"
+      ]
+    },
+    {
+      "name": "1С: Управление торговлей 8",
+      "text": "Современный программный продукт, позволяющий в комплексе автоматизировать задачи оперативного и управленческого учета, осуществлять анализ и планирование торговых операций, автоматизировать складскую логистику, повышая тем самым эффективность современного торгового предприятия. Оптимальное решение для оптовой и дистрибьюторской торговли. Является обновленной версией популярного программного продукта 1С:Торговля и склад 7.7",
+      "tags": [
+        "CRM и маркетинг",
+        "Финансы и ЕГАИС",
+        "Закупки, запасы, остатки, склады",
+        "Автоматизация процессов",
+        "Широкие интеграции"
+      ]
+    },
+    {
+      "name": "1С: Розница 8",
+      "text": "Универсальное решение для управления розничной торговлей одиночных магазинов и розничных сетей. Автоматизирует все бизнес-процессы магазина, в том числе оформление чеков в специализированном рабочем месте кассира и торговлю через Интернет",
+      "tags": [
+        "Продажи и маркетинг",
+        "Отчёты и персонал",
+        "Оборудование и РМК",
+        "Финансы и контроль",
+        "Маркировка, учёт, склады"
+      ]
+    },
+    {
+      "name": "1С: Фреш",
+      "text": "Облачное решение, позволяющее работать с программами 1С без установки, подключаясь к нужной конфигурации 1С удаленно. Работать в облаке можно с различных устройств. Такое решение удобно как для ведения различных видов учета (налогового, бухгалтерского, управленческого), так и для подачи отчетности в контролирующие органы. 1C:Fresh подойдет для бизнеса в любой сфере и в любом формате его ведения. Но наиболее интересен компаниям в случаях, когда бухгалтерский учет передан на аутсорс, при удаленной работе специалистов и когда внедрение программ необходимо провести в сжатые сроки или сразу для нескольких подразделений и филиалов",
+      "tags": [
+        "Бухгалтерия и финансы",
+        "Продажи и клиентские базы",
+        "Управление и кадры",
+        "Кассы и терминалы",
+        "СНТ, ЖКХ, кооперативы",
+        "Автоматизация процессов",
+        "Государственный сектор"
+      ]
+    },
+    {
+      "name": "1С: ERP Управление предприятием 2.0",
+      "text": "Уникальное решение для построения единой информационной системы. Позволяет автоматизировать как основные бизнес-процессы предприятия : склады, производство, заказы, продажи. Так и вспомогательные - регламентированный, налоговый, кадровый учет. Также в 1С:ERP широко развиты бизнес-процессы управления",
+      "tags": [
+        "Учёт и отчётность",
+        "Управление и маркетинг",
+        "Зарплаты и HR",
+        "CRM и продажи",
+        "Склады и логистика"
+      ]
+    },
+    {
+      "name": "1С: Комплексная автоматизация 8",
+      "text": "Подходит для малых и средних торгово-производственных компаний, которые ведут сложные процессы планирования, бюджетирования, продаж, планирования закупок и производства",
+      "tags": [
+        "Производство, склад и учёт",
+        "Продажи и закупки",
+        "Документооборот"
+      ]
+    },
+    {
+      "name": "1С: Документооборот 8",
+      "text": "Современная ECM-система (Enterprise Content Management) с широким набором возможностей для управления деловыми процессами организации и совместной работой сотрудников. Автоматизация работы с документами используется для сокращения сроков согласования и принятия решений, исключения потери документов и быстрого доступа к ним, контроля исполнительской дисциплины",
+      "tags": [
+        "ЭЦП и ЭДО",
+        "Управление задачами и рабочим временем",
+        "Базы знаний и регламенты",
+        "Мероприятия, чаты и форумы"
+      ]
+    },
+    {
+      "name": "1С: Управление нашей фирмой 8",
+      "text": "Сбалансированная система, с помощью которой можно комплексно автоматизировать учет в компаниях, которые занимаются мелкосерийным и позаказным производством, оказывает услуги или выполняет подрядные работы, торгует оптом и в розницу, ведет складской учет. Система разработана так, что в ней есть весь необходимый функционал для ведения всех необходимых процессов в компании. 1С:УНФ однозначно поможет сделать работу предприятия гораздо эффективнее. Вместе с решением руководитель получает полезный и понятный набор инструментов для управления бизнесом. Если необходимо, то программу легко настроить под каждую компанию, опираясь на индивидуальные особенности и требования",
+      "tags": [
+        "CRM, торговля и склад",
+        "Закупки, остатки и резервы",
+        "Зарплаты и HR",
+        "Производство, кассы и отчёты"
+      ]
+    },
+    {
+      "name": "1С: Управление Холдингом 8",
+      "text": "Мощный инструмент для эффективного управления. Повышайте эффективность вашего холдинга и выводите свой бизнес на новую высоту с гибким управлением и грамотным стратегическим планированием. Работайте в «1С:Управление холдингом 8» – решении класса CPM (Corporate Performance Management – управление эффективностью холдинга). Используйте комплекс инструментов для учета, бюджетирования, бизнес-анализа, автоматизации централизованных функций, адаптированных к требованиям российских холдинго. Решение «1С:Управление холдингом» подходит для компаний, в которых функции финансового управления централизованы полностью или по большей части. Оно оптимально для автоматизации финансовых подразделений управляющих компаний холдингов или центров обслуживания бизнеса",
+      "tags": [
+        "Бюджетирование и управление активами",
+        "Аналитика, бизнес-анализ и подсчёт KPI",
+        "Инвестиционные проекты и финансы",
+        "Регламентированный учет"
+      ]
+    }
+  ],
+  "clients": [
+    {
+      "name": "1",
+      "img": "/images/clients/1.jpg"
+    },
+    {
+      "name": "2",
+      "img": "/images/clients/2.png"
+    },
+    {
+      "name": "3",
+      "img": "/images/clients/3.png"
+    },
+    {
+      "name": "4",
+      "img": "/images/clients/4.png"
+    },
+    {
+      "text": "5",
+      "img": "/images/clients/5.png"
+    },
+    {
+      "name": "6",
+      "img": "/images/clients/6.png"
+    },
+    {
+      "name": "7",
+      "img": "/images/clients/7.png"
+    },
+    {
+      "name": "8",
+      "img": "/images/clients/8.png"
+    },
+    {
+      "name": "9",
+      "img": "/images/clients/9.png"
+    },
+    {
+      "name": "10",
+      "img": "/images/clients/10.png"
+    },
+    {
+      "name": "11",
+      "img": "/images/clients/11.png"
+    },
+    {
+      "name": "12",
+      "img": "/images/clients/12.svg"
+    }
+  ],
+  "vendors": [
+    {
+      "name": "1",
+      "img": "/images/vendors/1.png"
+    },
+    {
+      "name": "2",
+      "img": "/images/vendors/2.png"
+    },
+    {
+      "name": "3",
+      "img": "/images/vendors/3.png"
+    },
+    {
+      "name": "4",
+      "img": "/images/vendors/4.png"
+    }
+  ],
+  "tarrifs": [
+    {
+      "name": "Бесплатный",
+      "priceOld": "0",
+      "price": "0",
+      "memory": "5",
+      "users": "Неограниченное число"
+    },
+    {
+      "name": "Базовый",
+      "priceOld": "2 490",
+      "price": "1 990",
+      "memory": "24",
+      "users": "5"
+    },
+    {
+      "name": "Стандартный",
+      "priceOld": "6 990",
+      "price": "5 590",
+      "memory": "100",
+      "users": "50"
+    },
+    {
+      "name": "Профессиональный",
+      "priceOld": "13 990",
+      "price": "11 190",
+      "memory": "1024",
+      "users": "100"
+    }
+  ],
+  "rentSolutions": [
+    {
+      "name": "Лайт",
+      "priceOld": "2 064,60",
+      "price": "1 858,14",
+      "priceMonth": "",
+      "options": ["15 ГБ хранилище", "1 ядро", "2 ГБ оперативной памяти"]
+    },
+    {
+      "name": "Про",
+      "priceOld": "6 105",
+      "price": "5 494,50",
+      "priceMonth": "",
+      "options": ["30 ГБ хранилище", "2 ядра", "4 ГБ оперативной памяти"]
+    },
+    {
+      "name": "Энтерпрайз",
+      "priceOld": "16 805,40",
+      "price": "15 124,86",
+      "priceMonth": "",
+      "options": ["120 ГБ хранилище", "6 ядер", "8 ГБ оперативной памяти"]
+    }
+  ],
+  "hostingSolutions": [
+    {
+      "name": "Минимум",
+      "priceOld": "420",
+      "price": "378",
+      "priceMonth": "",
+      "options": ["15 ГБ хранилище", "1 ядро", "2 ГБ оперативной памяти"]
+    },
+    {
+      "name": "Стандарт",
+      "priceOld": "560",
+      "price": "504",
+      "priceMonth": "",
+      "options": ["30 ГБ хранилище", "2 ядра", "4 ГБ оперативной памяти"]
+    },
+    {
+      "name": "Максимум",
+      "priceOld": "670",
+      "price": "603",
+      "priceMonth": "",
+      "options": ["120 ГБ хранилище", "6 ядер", "8 ГБ оперативной памяти"]
+    }
+  ],
+  "corporateTemplates": [
+    {
+      "name": "Шаблон1",
+      "img": "/images/websites/preview.png",
+      "templateimg": "/images/websites/websitesTemplate1.png"
+    },
+    {
+      "name": "Шаблон2",
+      "img": "/images/websites/preview.png",
+      "templateimg": "/images/websites/websitesTemplate1.png"
+    },
+    {
+      "name": "Шаблон3",
+      "img": "/images/websites/preview.png",
+      "templateimg": "/images/websites/websitesTemplate1.png"
+    }
+  ],
+  "onlineShoppingTemplates": [
+    {
+      "name": "Шаблон1",
+      "img": "/images/websites/preview.png",
+      "templateimg": "/images/websites/websitesTemplate1.png"
+    },
+    {
+      "name": "Шаблон2",
+      "img": "/images/websites/preview.png",
+      "templateimg": "/images/websites/websitesTemplate1.png"
+    },
+    {
+      "name": "Шаблон3",
+      "img": "/images/websites/preview.png",
+      "templateimg": "/images/websites/websitesTemplate1.png"
+    }
+  ],
+  "vacancies": [
+    {
+      "name": " Front- end разработчик React.JS",
+      "text": "В данный момент нам нужен - Frontend разработчик, если вы готовы присоединиться к команде профессионалов и соответствуете требованиям вакансии, мы с радостью рассмотрим ваши отклики и резюме",
+      "skills": [
+        {
+          "name": "– уверенные знания в HTML5 и CSS3(пришли в сопроводительном письме ссылки на твои работы);"
+        },
+        {
+          "name": "– базовые знания JavaScript и jQuery;"
+        },
+        {
+          "name": "– опыт работы со шрифтами и SVG;"
+        },
+        {
+          "name": "– LESS / SCSS(будет плюсом);"
+        },
+        {
+          "name": "– Bootstrap(будет плюсом);"
+        },
+        {
+          "name": "– работа с Figma, Photoshop(на базовом уровне, вытащить дизайн);"
+        },
+        {
+          "name": "– знание cms MODX Revo(будет большим плюсом)."
+        }
+      ]
+    },
+    {
+      "name": " Front- end разработчик React.JS",
+      "text": "В данный момент нам нужен - Frontend разработчик, если вы готовы присоединиться к команде профессионалов и соответствуете требованиям вакансии, мы с радостью рассмотрим ваши отклики и резюме",
+      "skills": [
+        {
+          "name": "– уверенные знания в HTML5 и CSS3(пришли в сопроводительном письме ссылки на твои работы);"
+        },
+        {
+          "name": "– базовые знания JavaScript и jQuery;"
+        },
+        {
+          "name": "– опыт работы со шрифтами и SVG;"
+        },
+        {
+          "name": "– LESS / SCSS(будет плюсом);"
+        },
+        {
+          "name": "– Bootstrap(будет плюсом);"
+        },
+        {
+          "name": "– работа с Figma, Photoshop(на базовом уровне, вытащить дизайн);"
+        },
+        {
+          "name": "– знание cms MODX Revo(будет большим плюсом)."
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+.animate-scaleIn {
+  animation: scaleIn 0.3s ease-in-out;
+}
+@keyframes scaleIn {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.3;
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+.custom-select__single-value {
+  text-align: left !important;
+}
+.custom-select__input-container {
+  text-align: left !important;
+}
+.custom-select__value-container {
+  padding-left: 14px !important;
+  cursor: pointer;
+}
+.custom-select__placeholder {
+  text-align: left !important;
+}
+.custom-select__input-container {
+  text-align: left !important;
+}
+.custom-select__control {
+  min-width: 250px;
+  background-color: white !important;
+  height: 51px !important;
+  border: none !important;
+  font-size: 14px;
+  line-height: 18px !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+  color: #848484 !important;
+
+}
+.custom-select__control--is-focused {
+  color: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  outline: none !important;
+}
+.custom-select__menu {
+  text-align: left !important;
+  font-weight: 400 !important;
+  font-size: 14px !important;
+  line-height: 18px !important;
+  color: #212121 !important;
+  padding-left: 4px !important;
+  animation: scaleIn 0.3s ease-in-out;
+}
+.custom-select__option {
+  cursor: pointer !important;
+}
+
+.custom-select__option--is-selected {
+  background-color: #FEDC5A !important;
+  color: #212121 !important;
+}
+.custom-select__option--is-focused {
+  background-color: rgba(254, 220, 90, 0.55) !important;
+}
+.custom-select__indicator-separator {
+  display: none !important;
+}
+.custom-select__indicators {
+  cursor: pointer !important;
+}
+.custom-select__indicators svg path {
+  color: #838386;
+}
