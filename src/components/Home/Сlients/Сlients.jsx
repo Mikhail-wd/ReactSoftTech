@@ -1,5 +1,6 @@
 import React from 'react';
 import './Сlients.css';
+import reRoute from '../../../utils/support';
 
 function Сlients({clients}) {
 
@@ -12,7 +13,7 @@ function Сlients({clients}) {
 
                 {clients?.map((client, index) => (
                     <div key={index} className="clients__item">
-                        <img src={client.img} alt="client img" className="clients__item-img"/>
+                        <img src={reRoute(client.img)} alt="client img" className="clients__item-img"/>
                     </div>
                 ))}
             </div>
