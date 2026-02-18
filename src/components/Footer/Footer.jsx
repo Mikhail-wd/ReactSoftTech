@@ -10,6 +10,8 @@ import "../FormComponent/FormModal.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
 
+import reRoute from "../../utils/support"
+
 export const Footer = ({ data1 }) => {
   const { data } = useGetMenuQuery();
 
@@ -91,7 +93,7 @@ export const Footer = ({ data1 }) => {
           </ModalServices>
 
           <div className="footer__box" id="item1">
-            <Link className="footer__link" to="/">
+            <Link className="footer__link" to={reRoute("/")}>
               <img
                 src={import.meta.env.VITE_API_URL + data1?.logo.img.url}
                 alt="Логотип"
@@ -104,7 +106,7 @@ export const Footer = ({ data1 }) => {
             <div className="footer__item">
               <Link
                 className="footer__link"
-                to="/services"
+                to={reRoute("/services")}
                 onClick={(event) => {
                   event.stopPropagation();
                 }}
@@ -113,22 +115,22 @@ export const Footer = ({ data1 }) => {
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/portfolio">
+              <Link className="footer__link" to={reRoute("/portfolio")}>
                 Портфолио
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/about">
+              <Link className="footer__link" to={reRoute("/about")}>
                 СофтТек
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/vacancies">
+              <Link className="footer__link" to={reRoute("/vacancies")}>
                 Карьера
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/contacts">
+              <Link className="footer__link" to={reRoute("/contacts")}>
                 Контакты
               </Link>
             </div>
@@ -136,22 +138,22 @@ export const Footer = ({ data1 }) => {
 
           <div className="footer__box" id="item3">
             <div className="footer__item">
-              <Link className="footer__link" to="/privacy_policy">
+              <Link className="footer__link" to={reRoute("/privacy_policy")}>
                 Политика конфиденциальности
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/user_agreement">
+              <Link className="footer__link" to={reRoute("/user_agreement")}>
                 Пользовательское соглашение
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/return_policy">
+              <Link className="footer__link" to={reRoute("/return_policy")}>
                 Условия возврата
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to="/requisites">
+              <Link className="footer__link" to={reRoute("/requisites")}>
                 Реквизиты
               </Link>
             </div>

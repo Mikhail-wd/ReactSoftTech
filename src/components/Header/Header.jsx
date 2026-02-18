@@ -16,6 +16,8 @@ import menuIcon from "../../assets/icons/menu.svg";
 import closeIcon from "../../assets/icons/close.svg";
 import cIcon from "../../assets/icons/c.svg";
 
+import reRoute from "../../utils/support";
+
 import "./Header.css";
 import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "@/utils/useFetchFromStrapi.js";
@@ -52,21 +54,21 @@ const Header = ({ data1 }) => {
   useEffect(() => {
     const path = location.pathname;
 
-    if (path.startsWith("/services")) {
+    if (path.startsWith(reRoute("/services"))) {
       setActiveMenu("services");
-      setActiveMenuLink("/services");
-    } else if (path.startsWith("/portfolio")) {
+      setActiveMenuLink(reRoute("/services"));
+    } else if (path.startsWith(reRoute("/portfolio"))) {
       setActiveMenu("portfolio");
-      setActiveMenuLink("/portfolio");
-    } else if (path.startsWith("/about")) {
+      setActiveMenuLink(reRoute("/portfolio"));
+    } else if (path.startsWith(reRoute("/about"))) {
       setActiveMenu("about");
-      setActiveMenuLink("/about");
-    } else if (path.startsWith("/vacancies")) {
+      setActiveMenuLink(reRoute("/about"));
+    } else if (path.startsWith(reRoute("/vacancies"))) {
       setActiveMenu("vacancies");
-      setActiveMenuLink("/vacancies");
-    } else if (path.startsWith("/contacts")) {
+      setActiveMenuLink(reRoute("/vacancies"));
+    } else if (path.startsWith(reRoute("/contacts"))) {
       setActiveMenu("contacts");
-      setActiveMenuLink("/contacts");
+      setActiveMenuLink(reRoute("/contacts"));
     } else {
       setActiveMenu("");
       setActiveMenuLink("");
@@ -89,7 +91,7 @@ const Header = ({ data1 }) => {
         <div className="container">
           <div className="header__container">
             <div className="header__logo-box">
-              <Link to="/" className="logo">
+              <Link to={reRoute("/")} className="logo">
                 <img
                   src={import.meta.env.VITE_API_URL + data1?.logo.img.url}
                   alt="logo icon"
@@ -126,7 +128,7 @@ const Header = ({ data1 }) => {
                       onClick={(e) => {
                         setIsHoveringServices(true);
                         setActiveMenu("services");
-                        setActiveMenuLink("/services");
+                        setActiveMenuLink(reRoute("/services"));
                       }}
                     >
                       Услуги
@@ -180,13 +182,13 @@ const Header = ({ data1 }) => {
                     <Link
                       onClick={(e) => {
                         setActiveMenu("portfolio");
-                        setActiveMenuLink("/portfolio");
+                        setActiveMenuLink(reRoute("/portfolio"));
 
                         if (widthScreen <= 660) {
                           setIsMenuOpen(false);
                         }
                       }}
-                      to="/portfolio"
+                      to={reRoute("/portfolio")}
                       className="menu__link"
                     >
                       Портфолио
@@ -199,12 +201,12 @@ const Header = ({ data1 }) => {
                     <Link
                       onClick={(e) => {
                         setActiveMenu("about");
-                        setActiveMenuLink("/about");
+                        setActiveMenuLink(reRoute("/about"));
                         if (widthScreen <= 660) {
                           setIsMenuOpen(false);
                         }
                       }}
-                      to="about"
+                      to={reRoute("/about")}
                       className="menu__link"
                     >
                       СофтТек
@@ -217,12 +219,12 @@ const Header = ({ data1 }) => {
                     <Link
                       onClick={(e) => {
                         setActiveMenu("vacancies");
-                        setActiveMenuLink("/vacancies");
+                        setActiveMenuLink(reRoute("/vacancies"));
                         if (widthScreen <= 660) {
                           setIsMenuOpen(false);
                         }
                       }}
-                      to="/vacancies"
+                      to={reRoute("/vacancies")}
                       className="menu__link"
                     >
                       Вакансии
@@ -235,13 +237,13 @@ const Header = ({ data1 }) => {
                     <Link
                       onClick={(e) => {
                         setActiveMenu("contacts");
-                        setActiveMenuLink("/contacts");
+                        setActiveMenuLink(reRoute("/contacts"));
 
                         if (widthScreen <= 660) {
                           setIsMenuOpen(false);
                         }
                       }}
-                      to="/contacts"
+                      to={reRoute("/contacts")}
                       className="menu__link"
                     >
                       Контакты

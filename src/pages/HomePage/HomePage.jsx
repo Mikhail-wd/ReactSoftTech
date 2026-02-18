@@ -12,6 +12,7 @@ import Сlients from "../../components/Home/Сlients/Сlients";
 import Vendors from "../../components/Home/Vendors/Vendors";
 import girl from "/images/portraits/girl3.jpg";
 import VideoBigContent from "../../assets/video/video-big.mp4"; // вынесеноd
+import AboutUsBlock from "../../components/AboutPage/AboutUsBlock/AboutUsBlock.jsx";
 import "./HomePage.css";
 import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "../../utils/useFetchFromStrapi.js";
@@ -89,6 +90,12 @@ function HomePage(props) {
         </div>
       </section>
 
+      <section className="directions">
+        <div className="container">
+          <AboutUsBlock />
+        </div>
+      </section>
+
       <section className="clients">
         <div className="container">
           <Сlients clients={clients?.clients} />
@@ -104,11 +111,11 @@ function HomePage(props) {
         </div>
       </section>
 
-      <section className="vendors">
+      {/* <section className="vendors">
         <div className="container">
           <Vendors vendors={vendors?.vendors} />
         </div>
-      </section>
+      </section> */}
     </div>
   );
 }

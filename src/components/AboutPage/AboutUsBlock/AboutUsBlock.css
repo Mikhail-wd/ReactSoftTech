@@ -1,0 +1,51 @@
+.about_us {
+    width: 100%;
+    border-bottom: 1px solid #8a8a8a;
+    padding-bottom: 96px;
+}
+
+.about_us-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: start;
+    margin-top: 20px;
+    font-size: 16px;
+    min-height: 130px;
+    background: #FFFFFF;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.01), 0px 4px 8px rgba(0, 0, 0, 0.02), 0px 1px 12px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    padding: 16px;
+    box-sizing: border-box;
+    height: auto;
+}
+
+.about_us-content>p {
+    margin: 0;
+    text-align: start;
+    font-size: 16px;
+    line-height: 125%;
+}
+
+.about_us-title {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 64px;
+    line-height: 110%;
+    color: #000;
+    margin: 0;
+}
+
+@media screen and (max-width:960px) {
+
+    .about_us-title {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .about_us-title {
+        font-size: 32px;
+    }
+
+}
