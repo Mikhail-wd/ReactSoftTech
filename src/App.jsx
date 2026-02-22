@@ -64,8 +64,6 @@ import FormModal from "./components/FormComponent/FormModal.jsx";
 import DirectorFormModal from "./components/FormComponent/DirectorFormModal.jsx";
 import CookieConsent from "./components/CookieConsent/CookieConsent.jsx";
 
-import  reRoute  from '../src/utils/support.js'
-
 
 function AppContent() {
   const {
@@ -96,90 +94,90 @@ function AppContent() {
       <MainProvider>
         <main>
           <Routes>
-            <Route path={reRoute("/aiconf")} element={<AiConfPage />} />
-            <Route path={reRoute("/form-vacansies")} element={<FormVacansiesPage />} />
+            <Route path="/aiconf" element={<AiConfPage />} />
+            <Route path="/form-vacansies" element={<FormVacansiesPage />} />
 
-            <Route path={reRoute("/")} element={<HomePage />} />
-            <Route path={reRoute("/*")} element={<Page404 />} />
-            <Route path={reRoute("/about")} element={<AboutPage />} />
-            <Route path={reRoute("/contacts")} element={<ContactsPage />} />
-            <Route path={reRoute("/portfolio")} element={<PortfolioPage />} />
-            <Route path={reRoute("/portfolio/:slug")} element={<ProjectPage />} />
+            <Route path="/" element={<HomePage />} />
+            <Route path="/*" element={<Page404 />} />
+            <Route path= "/about" element={<AboutPage />} />
+            <Route path= "/contacts" element={<ContactsPage />} />
+            <Route path= "/portfolio" element={<PortfolioPage />} />
+            <Route path= "/portfolio/:slug" element={<ProjectPage />} />
 
             <Route
-              path={reRoute("/vacancies/open-vacancies")}
+              path= "/vacancies/open-vacancies"
               element={<OpenVacanciesPage />}
             />
-            <Route path={reRoute("/vacancies")} element={<VacanciesPage />} />
+            <Route path= "/vacancies" element={<VacanciesPage />} />
 
-            <Route path={reRoute("/privacy_policy")} element={<PrivacyPolicyPage />} />
-            <Route path={reRoute("/user_agreement")} element={<TermsofUsePage />} />
-            <Route path={reRoute("/return_policy")} element={<ReturnConditionsPage />} />
-            <Route path={reRoute("/requisites")} element={<RequisitesPage />} />
-            <Route path={reRoute("/license")} element={<LicensePage />} />
-            <Route path={reRoute("/blog")} element={<BlogPage />} />
-            <Route path={reRoute("/blog/:id")} element={<BlogItemPage />} />
-            <Route path={reRoute("/services")} element={<ServicesPage />} />
+            <Route path= "/privacy_policy" element={<PrivacyPolicyPage />} />
+            <Route path= "/user_agreement" element={<TermsofUsePage />} />
+            <Route path= "/return_policy" element={<ReturnConditionsPage />} />
+            <Route path= "/requisites" element={<RequisitesPage />} />
+            <Route path= "/license" element={<LicensePage />} />
+            <Route path= "/blog" element={<BlogPage />} />
+            <Route path= "/blog/:id" element={<BlogItemPage />} />
+            <Route path= "/services" element={<ServicesPage />} />
 
             <Route
-              path={reRoute("/services/integration/1c")}
+              path= "/services/integration/1c"
               element={<Integration1сPage />}
             />
             <Route
-              path={reRoute("/services/integration/bitrix24")}
+              path= "/services/integration/bitrix24"
               element={<IntegrationBitrix24Page />}
             />
 
             <Route
-              path={reRoute("/services/solutions/server-storage-support")}
+              path= "/services/solutions/server-storage-support"
               element={<ServerStoragePage />}
             />
             <Route
-              path={reRoute("/services/solutions/hosting")}
+              path= "/services/solutions/hosting"
               element={<HostingStoragePage />}
             />
             <Route
-              path={reRoute("/services/solutions/websites-online-stores")}
+              path= "/services/solutions/websites-online-stores"
               element={<WebsitesPage />}
             />
 
             <Route
-              path={reRoute("/services/equipment/office")}
+              path= "/services/equipment/office"
               element={<OfficeEquipmentPage />}
             />
             <Route
-              path={reRoute("/services/equipment/server")}
+              path= "/services/equipment/server"
               element={<ServerEquitmentPage />}
             />
             <Route
-              path={reRoute("/services/equipment/cash")}
+              path= "/services/equipment/cash"
               element={<CashEquipmentPage />}
             />
 
-            <Route path={reRoute("/services/design/web")} element={<WebDesignPage />} />
+            <Route path= "/services/design/web" element={<WebDesignPage />} />
             <Route
-              path={reRoute("/services/design/product")}
+              path= "/services/design/product"
               element={<ProductDesign />}
             />
 
-            <Route path={reRoute("/services/advertising/seo")} element={<SeoPage />} />
-            <Route path={reRoute("/services/advertising/smm")} element={<SmmPage />} />
+            <Route path="/services/advertising/seo" element={<SeoPage />} />
+            <Route path= "/services/advertising/smm" element={<SmmPage />} />
 
-            <Route path={reRoute("/services/development/app")} element={<AppPage />} />
+            <Route path= "/services/development/app" element={<AppPage />} />
             <Route
-              path={reRoute("/services/development/personal-accounts")}
+              path= "/services/development/personal-accounts"
               element={<PersonalAccountsPage />}
             />
             <Route
-              path={reRoute("/services/development/software")}
+              path= "/services/development/software"
               element={<SoftwarePage />}
             />
             <Route
-              path={reRoute("/services/development/website")}
+              path= "/services/development/website"
               element={<WebsitePage />}
             />
 
-            <Route path={reRoute("/services/licenses")} element={<LicensesPage />} />
+            <Route path= "/services/licenses" element={<LicensesPage />} />
           </Routes>
         </main>
       </MainProvider>

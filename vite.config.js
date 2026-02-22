@@ -9,7 +9,7 @@ export default defineConfig({
       "@": path.resolve(__dirname, "src"),
     },
   },
-  base: "/ReactSoftTech",
+  base: "",
   css: {
     modules: {
       // Если вы используете CSS модули, настройте их здесь

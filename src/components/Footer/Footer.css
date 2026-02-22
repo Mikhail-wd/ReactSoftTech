@@ -136,6 +136,20 @@
   margin-left: 100px; /* отрегулируйте по желанию */
 }
 
+.footer__social {
+  padding: 20px 0px 20px 0px;
+  display: flex;
+  width:70%;
+  gap: 18px;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  box-sizing: border-box;
+  justify-content: center;
+}
+.footer__social-img {
+  width: 32px;
+}
+
 @media (max-width: 960px) {
   .footer__box:nth-child(2) {
     max-width: 130px;
@@ -156,6 +170,10 @@
 
   .footer__container:last-child {
     margin-bottom: 114px;
+  }
+  .footer__social {
+    justify-content: center;
+    padding: 20px 0px 0px;
   }
 }
 

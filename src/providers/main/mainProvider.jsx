@@ -1,4 +1,4 @@
-import Header from "../../components/Header/Header.jsx";
+import HeaderModern from '../../components/Header/HeaderModern.jsx'
 import React from "react";
 import Footer from "../../components/Footer/Footer.jsx";
 import { axiosInstance } from "../../utils/useFetchFromStrapi.js";
@@ -24,7 +24,7 @@ export const MainProvider = ({ children }) => {
         <Loader />
       ) : (
         <>
-          <Header data1={globalData.header} />
+          <HeaderModern data1={globalData.header} />
           {children}
           <Footer data1={globalData.footer} />
         </>

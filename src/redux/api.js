@@ -8,6 +8,7 @@ export const api = createApi({
   baseQuery: () => ({ data }),
   tagTypes: [
     "MENU",
+    "MENU-MODERN",
     "ADVANTADGES-HOME",
     "ADVANTADGES-SISTEMS",
     "ADVANTADGES-WEB-DESING",
@@ -45,11 +46,14 @@ export const api = createApi({
       query: () => "/menu",
       providesTags: (_) => ["MENU"],
     }),
+    getMenuModern: builder.query({
+      query: () => "/menu-modern",
+      providesTags: (_) => ["MENU-MODERN"],
+    }),
     getAdvantagesHome: builder.query({
       query: () => "/advantages-home",
       providesTags: (_) => ["ADVANTADGES-HOME"],
     }),
-
     getAdvantagesSistems: builder.query({
       query: () => "/advantages-sistems",
       providesTags: (_) => ["ADVANTADGES-SISTEMS"],
@@ -183,6 +187,7 @@ export const api = createApi({
 
 export const {
   useGetMenuQuery,
+  useGetMenuModernQuery,
 
   useGetAdvantagesHomeQuery,
   useGetAdvantagesSistemsQuery,

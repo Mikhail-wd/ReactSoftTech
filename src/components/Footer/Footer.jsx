@@ -3,12 +3,15 @@ import React, { useState, useEffect } from "react";
 import { useGetMenuQuery } from "@/redux/api";
 import FormComponent from "@/components/FormComponent/FormComponent";
 import Modal from "@/components/Modal/Modal";
-import ModalServices from "@/components/ModalServices/ModalServices";
+import ModalModern from "@/components/ModalServices/ModalModern";
 import cIcon from "@/assets/icons/c.svg";
 import "./Footer.css";
 import "../FormComponent/FormModal.css";
 import { Link } from "react-router-dom";
 import Button from "../Button/Button";
+
+import telegram from '../../assets/icons/telegram.svg'
+import vk from '../../assets/icons/vk.svg'
 
 import reRoute from "../../utils/support"
 
@@ -49,51 +52,9 @@ export const Footer = ({ data1 }) => {
     <div className="footer">
       <div className="container">
         <div className="footer__container">
-          <ModalServices
-            show={isHoveringServices}
-            onClose={handleModalClose}
-            setIsHoveringServices={setIsHoveringServices}
-            activeMenuLink={activeMenuLink}
-            activeMenu={activeMenu}
-            handleMenuToggle={handleMenuToggle}
-          >
-            <div className="menu__modal-container">
-              <div className="menu-modal__content-box ">
-                {data &&
-                  data.menu &&
-                  Array.isArray(data.menu) &&
-                  data.menu.map((item, i) => {
-                    return (
-                      <div
-                        key={i}
-                        className="menu-modal__item"
-                        onClick={handleModalClose}
-                      >
-                        <a className="menu-modal__item-title" href={item.link}>
-                          {item.title}
-                        </a>
-                        <div className="menu-modal__item-box">
-                          {item.submenu.map((subItem, j) => {
-                            return (
-                              <Link
-                                className="menu-modal__item-link"
-                                key={j}
-                                to={subItem.link}
-                              >
-                                {subItem.title}
-                              </Link>
-                            );
-                          })}
-                        </div>
-                      </div>
-                    );
-                  })}
-              </div>
-            </div>
-          </ModalServices>
 
           <div className="footer__box" id="item1">
-            <Link className="footer__link" to={reRoute("/")}>
+            <Link className="footer__link" to={"/"}>
               <img
                 src={import.meta.env.VITE_API_URL + data1?.logo.img.url}
                 alt="Логотип"
@@ -106,7 +67,7 @@ export const Footer = ({ data1 }) => {
             <div className="footer__item">
               <Link
                 className="footer__link"
-                to={reRoute("/services")}
+                to={"/services"}
                 onClick={(event) => {
                   event.stopPropagation();
                 }}
@@ -115,22 +76,22 @@ export const Footer = ({ data1 }) => {
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/portfolio")}>
+              <Link className="footer__link" to={"/portfolio"}>
                 Портфолио
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/about")}>
+              <Link className="footer__link" to={"/about"}>
                 СофтТек
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/vacancies")}>
+              <Link className="footer__link" to={"/vacancies"}>
                 Карьера
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/contacts")}>
+              <Link className="footer__link" to={"/contacts"}>
                 Контакты
               </Link>
             </div>
@@ -138,22 +99,22 @@ export const Footer = ({ data1 }) => {
 
           <div className="footer__box" id="item3">
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/privacy_policy")}>
+              <Link className="footer__link" to={"/privacy_policy"}>
                 Политика конфиденциальности
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/user_agreement")}>
+              <Link className="footer__link" to={"/user_agreement"}>
                 Пользовательское соглашение
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/return_policy")}>
+              <Link className="footer__link" to={"/return_policy"}>
                 Условия возврата
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={reRoute("/requisites")}>
+              <Link className="footer__link" to={"/requisites"}>
                 Реквизиты
               </Link>
             </div>
@@ -166,6 +127,14 @@ export const Footer = ({ data1 }) => {
             }}>
               {data1?.button.text}
             </Button>
+            <div className="footer__social">
+              <Link to={"https://vk.com/cygenic_official"}>
+                <img src={vk} alt="vk" className="footer__social-img" />
+              </Link>
+              <Link to={"https://t.me/rm_yuldashev"}>
+                <img src={telegram} alt="telegram" className="footer__social-img" />
+              </Link>
+            </div>
             {/* <a
               href="#"
               className="footer__form-btn"
