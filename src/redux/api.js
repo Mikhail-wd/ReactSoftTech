@@ -32,6 +32,7 @@ export const api = createApi({
     "OFFICE-EQUIPMENT_PARTNERS",
     "CASH-EQUIPMENT",
     "CASH-EQUIPMENT-PARTNERS",
+    "COMPETENCIES",
     "VERSIONS1C",
     "CLIENTS",
     "TARRIFS",
@@ -150,6 +151,10 @@ export const api = createApi({
       query: () => "/versions1c",
       providesTags: (_) => ["VERSIONS1C"],
     }),
+    getCompetencies: builder.query({
+      query: () => "/сompetencies",
+      providesTags: (_) => ["COMPETENCIES"],
+    }),
     getClients: builder.query({
       query: () => "/clients",
       providesTags: (_) => ["CLIENTS"],
@@ -222,6 +227,8 @@ export const {
   useGetVersions1cQuery,
 
   useGetClientsQuery,
+
+  useGetCompetenciesQuery,
 
   useGetTarrifsQuery,
 

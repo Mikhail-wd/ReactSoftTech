@@ -21,6 +21,36 @@ import "./HeaderModern.css";
 import { useQuery } from "@tanstack/react-query";
 import { axiosInstance } from "@/utils/useFetchFromStrapi.js";
 
+function activeMenuList(value, menuArray, closeModal, closeModalMenu) {
+    const render = menuArray.filter(element => element.code == value)
+    if (render.length > 0) {
+        return (
+            <div
+                className="menu-modal__item"
+                onClick={() => closeModalMenu}
+            >
+                <a className="menu-modal__item-title">
+                    {render[0].title}
+                </a>
+                <div className="menu-modal__item-box">
+                    {render[0].submenu.length !== 0 ? render[0].submenu.map((element, index) => {
+                        return (
+                            <Link
+                                className="menu-modal__item-link"
+                                key={index}
+                                to={element.link}
+                                onClick={() => closeModal()}
+                            >
+                                {element.title}
+                            </Link>
+                        );
+                    }) : null}
+                </div>
+            </div>
+        )
+    }
+}
+
 const HeaderModern = ({ data1 }) => {
     const location = useLocation();
     const { openFormModal } = useFormModal();
@@ -31,42 +61,14 @@ const HeaderModern = ({ data1 }) => {
 
     const api = useGetMenuModernQuery()
     const menuData = api.data?.menuModern;
+
     const [widthScreen, setWidthScreen] = useState(window.innerWidth);
     const [isMenuOpen, setIsMenuOpen] = useState(widthScreen > 660);
     const [isHoveringServices, setIsHoveringServices] = useState(false);
     const [activeMenu, setActiveMenu] = useState("");
     const [activeMenuLink, setActiveMenuLink] = useState("");
+    const actualDate = new Date().getFullYear()
 
-
-    function activeMenuList(value, menuArray,closeModal) {
-        const render = menuArray.filter(element => element.code == value)
-        if (render.length > 0) {
-            return (
-                <div
-                    className="menu-modal__item"
-                    onClick={handleModalClose}
-                >
-                    <a className="menu-modal__item-title">
-                        {render[0].title}
-                    </a>
-                    <div className="menu-modal__item-box">
-                        {render[0].submenu.length !== 0 ? render[0].submenu.map((element, index) => {
-                            return (
-                                <Link
-                                    className="menu-modal__item-link"
-                                    key={index}
-                                    to={element.link}
-                                    onClick={()=>closeModal()}
-                                >
-                                    {element.title}
-                                </Link>
-                            );
-                        }) : null}
-                    </div>
-                </div>
-            )
-        }
-    }
 
     useEffect(() => {
         const handleResize = () => {
@@ -83,7 +85,7 @@ const HeaderModern = ({ data1 }) => {
 
     useEffect(() => {
         const path = location.pathname;
-
+        document.getElementsByTagName("body")[0].style.overflowY = "scroll"
         if (path.startsWith("/services")) {
             setActiveMenu("services");
             setActiveMenuLink("/services");
@@ -105,6 +107,15 @@ const HeaderModern = ({ data1 }) => {
         }
     }, [location.pathname]);
 
+
+    function stopPageScroll(value) {
+        if (value) {
+            document.getElementsByTagName("body")[0].style.overflowY = "hidden"
+        } else {
+            document.getElementsByTagName("body")[0].style.overflowY = "scroll"
+        }
+    }
+
     const handleMenuToggle = () => {
         if (widthScreen <= 660) {
             setIsMenuOpen(!isMenuOpen);
@@ -113,6 +124,7 @@ const HeaderModern = ({ data1 }) => {
 
     const handleModalClose = () => {
         setIsHoveringServices(false);
+        document.getElementsByTagName("body")[0].style.overflowY = "scroll"
     };
     return (
         <>
@@ -120,7 +132,10 @@ const HeaderModern = ({ data1 }) => {
                 <div className="container">
                     <div className="header__container">
                         <div className="header__logo-box">
-                            <Link to={"/"} className="logo" onClick={() => setIsHoveringServices(false)}>
+                            <Link to={"/"} className="logo" onClick={() => {
+                                setIsHoveringServices(false)
+                                stopPageScroll(false)
+                            }}>
                                 <img
                                     src={import.meta.env.VITE_API_URL + data1?.logo.img.url}
                                     alt="logo icon"
@@ -159,7 +174,7 @@ const HeaderModern = ({ data1 }) => {
                                                 activeMenu={activeMenu}
                                                 handleMenuToggle={handleMenuToggle}
                                             >
-                                                {activeMenuList(activeMenu, menuData, handleMenuToggle)}
+                                                {activeMenuList(activeMenu, menuData, handleMenuToggle, handleModalClose)}
                                             </ModalModern>
                                         )}
                                     </li>
@@ -170,6 +185,7 @@ const HeaderModern = ({ data1 }) => {
                                                     className="menu__link"
                                                     onClick={(e) => {
                                                         setIsHoveringServices(true);
+                                                        stopPageScroll(true)
                                                         setActiveMenu(element.code);
                                                     }}
                                                 >
@@ -186,6 +202,7 @@ const HeaderModern = ({ data1 }) => {
                                                 setActiveMenu("contacts");
                                                 setIsHoveringServices(false)
                                                 handleMenuToggle()
+                                                handleModalClose()
                                             }}
                                         >
                                             Контакты
@@ -203,7 +220,7 @@ const HeaderModern = ({ data1 }) => {
                                                     className="menu__item-box--text"
                                                     to="tel:+73242332834"
                                                 >
-                                                    +7 (922) 50-27-782
+                                                    +7 (922) 502-77-82
                                                 </Link>
                                             </div>
                                             <div className="menu__item-box">
@@ -223,7 +240,7 @@ const HeaderModern = ({ data1 }) => {
                                     </li>
                                     <li className="menu__item" id="header_social">
                                         <div className="menu__item-container-social">
-                                            <a href="https://t.me/rm_yuldashev">
+                                            <a href="https://t.me/blog_softtech">
                                                 <img
                                                     src={telegram}
                                                     alt="social logo telegram"
@@ -242,7 +259,7 @@ const HeaderModern = ({ data1 }) => {
                                     <li className="menu__item" id="header_inform">
                                         <div className="menu__item-box-copy">
                                             <img src={cIcon} alt="icon c" className="menu-c__image" />
-                                            <span>СофтТек 2023 г.</span>
+                                            <span>СофтТек {actualDate} г.</span>
                                         </div>
                                     </li>
                                     <li className="menu__item">
@@ -261,7 +278,7 @@ const HeaderModern = ({ data1 }) => {
                     </div>
                     <div className="header__line"></div>
                 </div>
-            </header>
+            </header >
         </>
     );
 };

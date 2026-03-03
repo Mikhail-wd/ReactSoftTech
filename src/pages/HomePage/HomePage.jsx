@@ -3,12 +3,14 @@ import {
   useGetClientsQuery,
   useGetAdvantagesHomeQuery,
   useGetVendorsQuery,
+  useGetCompetenciesQuery
 } from "../../redux/api";
 
 import Banner from "../../components/Home/Banner/Banner";
 import Advantages from "../../components/Home/Advantages/Advantages";
 import Directions from "../../components/Home/Directions/Directions";
 import Сlients from "../../components/Home/Сlients/Сlients";
+import Competencies from "../../components/Home/Competencies/Competencies.jsx";
 import Vendors from "../../components/Home/Vendors/Vendors";
 import girl from "/images/portraits/girl3.jpg";
 import VideoBigContent from "../../assets/video/video-big.mp4"; // вынесеноd
@@ -39,6 +41,11 @@ function HomePage(props) {
   } = useGetClientsQuery();
 
   const {
+    data: competencies,
+    error: competenciesError,
+    isLoading: competenciesLoading,
+  } = useGetCompetenciesQuery()
+  const {
     data: advantagesHome,
     error: advantagesHomeError,
     isLoading: advantagesHomeisLoading,
@@ -68,9 +75,27 @@ function HomePage(props) {
         <source src={VideoBigContent} type="video/mp4" />
       </video>
 
+      <section className="directions">
+        <div className="container">
+          <AboutUsBlock />
+        </div>
+      </section>
+
+      <section className="directions">
+        <div className="container">
+          <Directions menu={data} />
+        </div>
+      </section>
+
       <section className="banner">
         <div className="container">
           <Banner />
+        </div>
+      </section>
+
+      <section className="competencies">
+        <div className="container">
+          <Competencies data={competencies?.competencies} />
         </div>
       </section>
 
@@ -84,17 +109,6 @@ function HomePage(props) {
         </div>
       </section>
 
-      <section className="directions">
-        <div className="container">
-          <Directions menu={data} />
-        </div>
-      </section>
-
-      <section className="directions">
-        <div className="container">
-          <AboutUsBlock />
-        </div>
-      </section>
 
       <section className="clients">
         <div className="container">

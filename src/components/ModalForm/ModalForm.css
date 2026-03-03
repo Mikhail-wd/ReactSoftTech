@@ -12,6 +12,7 @@
 }
 
 .modalForm__container {
+  border-radius: 16px;
   background-color: white;
   padding: 20px;
   width: 80%;
@@ -27,4 +28,15 @@
   color: #000000;
   margin: 0;
   margin-bottom: 12px;
+}
+
+.modal__close-bth-alter {
+  position: relative;
+  right: -240px;
+  top: -10px;
+  background: none;
+  border-style: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
 }

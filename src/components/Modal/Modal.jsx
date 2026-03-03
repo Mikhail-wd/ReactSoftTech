@@ -16,7 +16,7 @@ const Modal = ({ children, closeModal }) => {
     <div className="modal" onClick={handleOverlayClick}>
       <div className="modal-container">
         <div className="modal__content">
-          <button onClick={closeModal} className="modal__close-bth">
+          <button onClick={()=> closeModal()} className="modal__close-bth">
             <img src={CloseIcon} className="modal__close-icon" />
           </button>
           {children}

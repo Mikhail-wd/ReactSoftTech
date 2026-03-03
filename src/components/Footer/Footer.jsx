@@ -65,14 +65,18 @@ export const Footer = ({ data1 }) => {
           </div>
           <div className="footer__box" id="item2">
             <div className="footer__item">
-              <Link
-                className="footer__link"
-                to={"/services"}
-                onClick={(event) => {
-                  event.stopPropagation();
-                }}
-              >
-                Услуги
+              <Link className="footer__link" to={"/*"}>
+                Решения
+              </Link>
+            </div>
+            <div className="footer__item">
+              <Link className="footer__link" to={"/*"}>
+                Разработка
+              </Link>
+            </div>
+            <div className="footer__item">
+              <Link className="footer__link" to={"/*"}>
+                Внедрение
               </Link>
             </div>
             <div className="footer__item">
@@ -82,7 +86,7 @@ export const Footer = ({ data1 }) => {
             </div>
             <div className="footer__item">
               <Link className="footer__link" to={"/about"}>
-                СофтТек
+                О компании
               </Link>
             </div>
             <div className="footer__item">
@@ -90,32 +94,32 @@ export const Footer = ({ data1 }) => {
                 Карьера
               </Link>
             </div>
+          </div>
+
+          <div className="footer__box" id="item3">
             <div className="footer__item">
               <Link className="footer__link" to={"/contacts"}>
                 Контакты
               </Link>
             </div>
-          </div>
-
-          <div className="footer__box" id="item3">
             <div className="footer__item">
-              <Link className="footer__link" to={"/privacy_policy"}>
-                Политика конфиденциальности
-              </Link>
-            </div>
-            <div className="footer__item">
-              <Link className="footer__link" to={"/user_agreement"}>
-                Пользовательское соглашение
-              </Link>
-            </div>
-            <div className="footer__item">
-              <Link className="footer__link" to={"/return_policy"}>
-                Условия возврата
+              <Link className="footer__link" to={"/*"}>
+                Вопросы-ответы
               </Link>
             </div>
             <div className="footer__item">
               <Link className="footer__link" to={"/requisites"}>
                 Реквизиты
+              </Link>
+            </div>
+            <div className="footer__item">
+              <Link className="footer__link" to={"/privacy_policy"}>
+                Политика
+              </Link>
+            </div>
+            <div className="footer__item">
+              <Link className="footer__link" to={"/user_agreement"}>
+                Соглашения
               </Link>
             </div>
           </div>
@@ -128,10 +132,10 @@ export const Footer = ({ data1 }) => {
               {data1?.button.text}
             </Button>
             <div className="footer__social">
-              <Link to={"https://vk.com/cygenic_official"}>
+              <Link to={"https://vk.com/softtechgroup"}>
                 <img src={vk} alt="vk" className="footer__social-img" />
               </Link>
-              <Link to={"https://t.me/rm_yuldashev"}>
+              <Link to={"https://t.me/blog_softtech"}>
                 <img src={telegram} alt="telegram" className="footer__social-img" />
               </Link>
             </div>

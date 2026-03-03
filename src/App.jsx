@@ -56,6 +56,7 @@ import ServicesPage from "./pages/ServicesPage/ServicesPage.jsx";
 import RequisitesPage from "./pages/RequisitesPage/RequisitesPage.jsx";
 import LicensePage from "./pages/LicensePage/LicensePage.jsx";
 import Page404 from "./pages/Page404/Page404.jsx";
+import CompetentionsItem from "./pages/CompetentionsItem/CompetentionsItem.jsx";
 import {
   FormModalProvider,
   useFormModal,
@@ -99,85 +100,89 @@ function AppContent() {
 
             <Route path="/" element={<HomePage />} />
             <Route path="/*" element={<Page404 />} />
-            <Route path= "/about" element={<AboutPage />} />
-            <Route path= "/contacts" element={<ContactsPage />} />
-            <Route path= "/portfolio" element={<PortfolioPage />} />
-            <Route path= "/portfolio/:slug" element={<ProjectPage />} />
+            <Route path="/about" element={<AboutPage />} />
+            <Route path="/contacts" element={<ContactsPage />} />
+            <Route path="/portfolio" element={<PortfolioPage />} />
+            <Route path="/portfolio/:slug" element={<ProjectPage />} />
 
             <Route
-              path= "/vacancies/open-vacancies"
+              path="/vacancies/open-vacancies"
               element={<OpenVacanciesPage />}
             />
-            <Route path= "/vacancies" element={<VacanciesPage />} />
+            <Route path="/vacancies" element={<VacanciesPage />} />
 
-            <Route path= "/privacy_policy" element={<PrivacyPolicyPage />} />
-            <Route path= "/user_agreement" element={<TermsofUsePage />} />
-            <Route path= "/return_policy" element={<ReturnConditionsPage />} />
-            <Route path= "/requisites" element={<RequisitesPage />} />
-            <Route path= "/license" element={<LicensePage />} />
-            <Route path= "/blog" element={<BlogPage />} />
-            <Route path= "/blog/:id" element={<BlogItemPage />} />
-            <Route path= "/services" element={<ServicesPage />} />
+            <Route path="/privacy_policy" element={<PrivacyPolicyPage />} />
+            <Route path="/user_agreement" element={<TermsofUsePage />} />
+            <Route path="/return_policy" element={<ReturnConditionsPage />} />
+            <Route path="/requisites" element={<RequisitesPage />} />
+            <Route path="/license" element={<LicensePage />} />
+            <Route path="/blog" element={<BlogPage />} />
+            <Route path="/blog/:id" element={<BlogItemPage />} />
+            <Route path="/services" element={<ServicesPage />} />
 
             <Route
-              path= "/services/integration/1c"
+              path="/services/integration/1c"
               element={<Integration1сPage />}
             />
             <Route
-              path= "/services/integration/bitrix24"
+              path="/services/integration/bitrix24"
               element={<IntegrationBitrix24Page />}
             />
 
             <Route
-              path= "/services/solutions/server-storage-support"
+              path="/services/solutions/server-storage-support"
               element={<ServerStoragePage />}
             />
             <Route
-              path= "/services/solutions/hosting"
+              path="/services/solutions/hosting"
               element={<HostingStoragePage />}
             />
             <Route
-              path= "/services/solutions/websites-online-stores"
+              path="/services/solutions/websites-online-stores"
               element={<WebsitesPage />}
             />
 
             <Route
-              path= "/services/equipment/office"
+              path="/services/equipment/office"
               element={<OfficeEquipmentPage />}
             />
             <Route
-              path= "/services/equipment/server"
+              path="/services/equipment/server"
               element={<ServerEquitmentPage />}
             />
             <Route
-              path= "/services/equipment/cash"
+              path="/services/equipment/cash"
               element={<CashEquipmentPage />}
             />
 
-            <Route path= "/services/design/web" element={<WebDesignPage />} />
+            <Route path="/services/design/web" element={<WebDesignPage />} />
             <Route
-              path= "/services/design/product"
+              path="/services/design/product"
               element={<ProductDesign />}
+            />
+            <Route
+              path="/competentions/:id"
+              element={<CompetentionsItem />}
             />
 
             <Route path="/services/advertising/seo" element={<SeoPage />} />
-            <Route path= "/services/advertising/smm" element={<SmmPage />} />
+            <Route path="/services/advertising/smm" element={<SmmPage />} />
 
-            <Route path= "/services/development/app" element={<AppPage />} />
+            <Route path="/services/development/app" element={<AppPage />} />
             <Route
-              path= "/services/development/personal-accounts"
+              path="/services/development/personal-accounts"
               element={<PersonalAccountsPage />}
             />
             <Route
-              path= "/services/development/software"
+              path="/services/development/software"
               element={<SoftwarePage />}
             />
             <Route
-              path= "/services/development/website"
+              path="/services/development/website"
               element={<WebsitePage />}
             />
 
-            <Route path= "/services/licenses" element={<LicensesPage />} />
+            <Route path="/services/licenses" element={<LicensesPage />} />
           </Routes>
         </main>
       </MainProvider>

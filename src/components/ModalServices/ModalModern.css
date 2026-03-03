@@ -1,6 +1,6 @@
 .menu__modal {
-  position: fixed;
-  top: 128px;
+  position: absolute;
+  top: 98px;
   bottom: 0;
   left: 0;
   right: 0;
@@ -107,7 +107,7 @@
   .menu-modal__container {
     width: 100%;
     position: absolute;
-    top: 197px;
+    top: 167px;
   }
 
   .menu-modal__content-box {

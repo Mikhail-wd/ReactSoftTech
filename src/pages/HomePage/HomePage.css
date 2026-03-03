@@ -30,6 +30,12 @@
   margin-bottom: 97px;
 }
 
+.competencies {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
 .clients {
   display: flex;
   justify-content: center;
@@ -51,6 +57,7 @@
   width: 100%;
   margin-bottom: 48px;
 }
+
 .form-header {
   max-width: 80%;
   font-style: normal;
@@ -78,9 +85,11 @@
     background-size: 1500px;
     overflow: hidden; */
   }
+
   .vendors {
     margin-bottom: 0;
   }
+
   .form-header {
     font-size: 48px;
   }
@@ -93,11 +102,13 @@
     background-size: 1500px;
     overflow: hidden; */
   }
+
   .form-header {
     font-size: 32px;
     width: 100%;
   }
 }
+
 @media (max-width: 455px) {
   .form-header {
     font-size: 24px;
