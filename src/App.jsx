@@ -19,6 +19,7 @@ import ProjectPage from "./pages/ProjectPage/ProjectPage";
 import PrivacyPolicyPage from "./pages/PrivacyPolicyPage/PrivacyPolicyPage";
 import TermsofUsePage from "./pages/TermsofUsePage/TermsofUsePage";
 import ReturnConditionsPage from "./pages/ReturnConditionsPage/ReturnConditionsPage";
+import Answers from "./pages/Answers/Answers.jsx";
 
 import Integration1сPage from "./pages/ServicesPage/IntegrationPage/Integration1cPage/Integration1cPage";
 import IntegrationBitrix24Page from "./pages/ServicesPage/IntegrationPage/IntegrationBitrix24Page/IntegrationBitrix24Page";
@@ -101,6 +102,7 @@ function AppContent() {
             <Route path="/" element={<HomePage />} />
             <Route path="/*" element={<Page404 />} />
             <Route path="/about" element={<AboutPage />} />
+            <Route path="/answers" element={<Answers />} />
             <Route path="/contacts" element={<ContactsPage />} />
             <Route path="/portfolio" element={<PortfolioPage />} />
             <Route path="/portfolio/:slug" element={<ProjectPage />} />

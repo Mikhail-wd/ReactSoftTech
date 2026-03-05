@@ -8,6 +8,7 @@ import { useFormModal } from "../../../contexts/FormModalContext";
 function Tarrifs24({ tarrifs, serviceValue = null }) {
   const [isMobile, setIsMobile] = useState(window.innerWidth <= 660);
   const { openDirectorModal } = useFormModal();
+    
   useEffect(() => {
     window.addEventListener("resize", () => {
       setIsMobile(window.innerWidth <= 660);
@@ -20,8 +21,7 @@ function Tarrifs24({ tarrifs, serviceValue = null }) {
         <div className="tarrifs__item" key={index}>
           <div className="tarrifs__name">{item.name}</div>
           <div className="tarrifs__priceOld">
-            {item.priceOld}
-            <span className="tarrifs__span"> ₽ / мес</span>
+            {item.priceOld.length >= 2 ? <>{item.priceOld}  <span className="tarrifs__span"> ₽ / мес</span></> : ""}
           </div>
           <div className="tarrifs__price">
             {item.price}
@@ -35,9 +35,8 @@ function Tarrifs24({ tarrifs, serviceValue = null }) {
             {item.users}
             <span className="tarrifs__span"> пользователей</span>
           </div>
-
           <button
-            onClick={() => openDirectorModal(serviceValue, "Оставьте заявку")}
+            onClick={() => openDirectorModal(item.code, "Оставьте заявку")}
             className="tarrifs__btn"
           >
             Выбрать тариф
@@ -77,8 +76,7 @@ function Tarrifs24({ tarrifs, serviceValue = null }) {
           <div className="tarrifs__item" key={index}>
             <div className="tarrifs__name">{item.name}</div>
             <div className="tarrifs__priceOld">
-              {item.priceOld}
-              <span className="tarrifs__span"> ₽ / мес</span>
+              {item.priceOld.length >= 2 ? <>{item.priceOld}  <span className="tarrifs__span"> ₽ / мес</span></> : ""}
             </div>
             <div className="tarrifs__price">
               {item.price}
@@ -93,7 +91,7 @@ function Tarrifs24({ tarrifs, serviceValue = null }) {
               <span className="tarrifs__span"> пользователей</span>
             </div>
             <button
-              onClick={() => openDirectorModal(serviceValue, "Оставьте заявку")}
+              onClick={() => openDirectorModal(item.code, "Оставьте заявку")}
               className="tarrifs__btn"
             >
               Выбрать тариф
@@ -112,7 +110,7 @@ function Tarrifs24({ tarrifs, serviceValue = null }) {
           Выберите тариф, подходящий под потребности Вашего бизнеса
         </p>
         <a
-          href={"https://www.bitrix24.ru/prices/"}
+          href={"https://www.bitrix24.ru/?p=14739512"}
           className="tarrifs__text-underline"
         >
           Подробное <span className="tarrifs__text-bold">сравнение</span>{" "}

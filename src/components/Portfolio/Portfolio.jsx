@@ -33,10 +33,12 @@ function Portfolio(props) {
     setService(e);
   };
 
-  const options = services?.data.map((item) => {
-    return { value: item.slug, label: item.name };
-  });
+  const options = services?.data.filter(items => items.projects.length != 0).map((item) => { return { value: item.slug, label: item.name } })
 
+  // const options = services?.data.map((item) => {
+  //   return { value: item.slug, label: item.name };
+  // });
+  
   return (
     <>
       <div className="portfolio__filter-btn">

@@ -49,7 +49,7 @@ function IntegrationBitrix24Page(props) {
 
         <section className="developmentPage__box">
           <div className="container">
-            <Tarrifs24 tarrifs={tarrifs.tarrifs} serviceValue="bitrix24" />
+            <Tarrifs24 tarrifs={tarrifs.tarrifs}/>
           </div>
           <div className={"container"}>
             <p className={"developmentPage__txt"}>

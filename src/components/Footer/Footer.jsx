@@ -65,17 +65,17 @@ export const Footer = ({ data1 }) => {
           </div>
           <div className="footer__box" id="item2">
             <div className="footer__item">
-              <Link className="footer__link" to={"/*"}>
+              <Link className="footer__link" to={"/"}>
                 Решения
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={"/*"}>
+              <Link className="footer__link" to={"/"}>
                 Разработка
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={"/*"}>
+              <Link className="footer__link" to={"/"}>
                 Внедрение
               </Link>
             </div>
@@ -103,7 +103,7 @@ export const Footer = ({ data1 }) => {
               </Link>
             </div>
             <div className="footer__item">
-              <Link className="footer__link" to={"/*"}>
+              <Link className="footer__link" to={"/"}>
                 Вопросы-ответы
               </Link>
             </div>

@@ -3,6 +3,8 @@ import Sistems from "../../components/AboutPage/Sistems/Sistems";
 import Geography from "../../components/AboutPage/Geography/Geography";
 import WhatCanWeDo from "../../components/AboutPage/WhatCanWeDo/WhatCanWeDo";
 import VideoBigContent from "../../assets/video/video-big.mp4";
+import QuestionsAnswersBlock from "../../components/AboutPage/QuestionsAnswersBlock/QuestionsAnswersBlock";
+import WorkWithUs from "../../components/AboutPage/WorkWithUs/WorkWithUs";
 
 import "./AboutPage.css";
 import { useQuery } from "@tanstack/react-query";
@@ -122,6 +124,19 @@ function AboutPage(props) {
           <section className="formAboutPage">
             <FormWithImage />
           </section>
+
+          <section className="sistems">
+            <div className="container">
+              <QuestionsAnswersBlock />
+            </div>
+          </section>
+
+          <section className="sistems">
+            <div className="container">
+              <WorkWithUs />
+            </div>
+          </section>
+
         </div>
       )}
     </>

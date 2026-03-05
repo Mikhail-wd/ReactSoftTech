@@ -24,12 +24,14 @@ export const FormModalProvider = ({ children }) => {
 
   const openDirectorModal = (
     serviceValue = null,
-    header = "Написать директору"
+    header = "Написать директору",
+    name = null
   ) => {
     setPreselectedService(serviceValue);
     setModalHeader(header);
     setIsDirectorModalOpen(true);
   };
+  
   const closeDirectorModal = () => {
     setIsDirectorModalOpen(false);
     setPreselectedService(null);

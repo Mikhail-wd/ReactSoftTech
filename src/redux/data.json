@@ -114,23 +114,23 @@
       "submenu": [
         {
           "title": "CMS",
-          "link": "/services/equipment/office"
+          "link": "/"
         },
         {
           "title": "Сервер",
-          "link": "/services/equipment/cash"
+          "link": "/services/solutions/server-storage-support"
         },
         {
           "title": "Хостинг",
-          "link": "/services/equipment/server"
+          "link": "/services/solutions/hosting"
         },
         {
           "title": "Домен",
-          "link": "/services/equipment/server"
+          "link": "/"
         },
         {
           "title": "Почта",
-          "link": "/services/equipment/server"
+          "link": "/"
         }
       ]
     },
@@ -141,19 +141,19 @@
       "submenu": [
         {
           "title": "Лендинг",
-          "link": "/services/equipment/office"
+          "link": "/"
         },
         {
           "title": "Корпоративный сайт",
-          "link": "/services/equipment/cash"
+          "link": "/"
         },
         {
           "title": "Интернет-магазин",
-          "link": "/services/equipment/server"
+          "link": "/"
         },
         {
           "title": "Платформа",
-          "link": "/services/equipment/server"
+          "link": "/"
         }
       ]
     },
@@ -164,11 +164,11 @@
       "submenu": [
         {
           "title": "Битрикс24",
-          "link": "/services/equipment/office"
+          "link": "/services/integration/bitrix24"
         },
         {
           "title": "1С",
-          "link": "/services/equipment/cash"
+          "link": "/services/integration/1c"
         }
       ]
     },
@@ -179,7 +179,7 @@
       "submenu": [
         {
           "title": "Карьера",
-          "link": "/services/equipment/office"
+          "link": "/vacancies"
         }
       ]
     }
@@ -1391,6 +1391,7 @@
   ],
   "tarrifs": [
     {
+      "code": "bitrix24_free",
       "name": "Бесплатный",
       "priceOld": "0",
       "price": "0",
@@ -1398,6 +1399,7 @@
       "users": "Неограниченное число"
     },
     {
+      "code": "bitrix24_base",
       "name": "Базовый",
       "priceOld": "2 490",
       "price": "1 990",
@@ -1405,6 +1407,7 @@
       "users": "5"
     },
     {
+      "code": "bitrix24_standart",
       "name": "Стандартный",
       "priceOld": "6 990",
       "price": "5 590",
@@ -1412,6 +1415,7 @@
       "users": "50"
     },
     {
+      "code": "bitrix24_pro",
       "name": "Профессиональный",
       "priceOld": "13 990",
       "price": "11 190",

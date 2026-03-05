@@ -5,7 +5,7 @@ import "./FormModal.css";
 
 function FormModal({ isOpen, onClose, showServices = false }) {
   if (!isOpen) return null;
-
+  
   return (
     <Modal closeModal={onClose}>
       <div className="formModal__content">

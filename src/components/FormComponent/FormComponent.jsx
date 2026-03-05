@@ -17,10 +17,12 @@ function FormComponent({
 }) {
   const [chatId, setChatId] = useState("-1001820850326");
   const [modalOpen, setIsModalOpen] = useState(false);
-
   // Опции для мульти-селекта услуг
   const serviceOptions = [
-    { value: "bitrix24", label: "Bitrix24" },
+    { value: "bitrix24_free", label: "Bitrix24 Бесплатный" },
+    { value: "bitrix24_base", label: "Bitrix24 Базовый" },
+    { value: "bitrix24_standart", label: "Bitrix24 Стандартный" },
+    { value: "bitrix24_pro", label: "Bitrix24 Профессиональный" },
     { value: "integration1c", label: "Внедрение 1С" },
     { value: "websiteDev", label: "Разработка сайтов" },
     { value: "appDev", label: "Разработка приложений" },
