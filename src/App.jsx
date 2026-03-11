@@ -65,6 +65,8 @@ import {
 import FormModal from "./components/FormComponent/FormModal.jsx";
 import DirectorFormModal from "./components/FormComponent/DirectorFormModal.jsx";
 import CookieConsent from "./components/CookieConsent/CookieConsent.jsx";
+import Webinar from "./pages/Webinar/Webinar.jsx";
+import Thanks from "./pages/Webinar/Thanks/Thanks.jsx";
 
 
 function AppContent() {
@@ -185,6 +187,8 @@ function AppContent() {
             />
 
             <Route path="/services/licenses" element={<LicensesPage />} />
+            <Route path="/webinar" element={<Webinar />} />
+            <Route path="/webinar/thank-you" element={<Thanks />} />
           </Routes>
         </main>
       </MainProvider>
